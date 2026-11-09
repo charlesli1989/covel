@@ -1,8 +1,8 @@
-# 4354 models; levels: provider-default disabled automatic none minimal low medium high xhigh max
+# 5004 models; levels: provider-default disabled automatic none minimal low medium high xhigh max
 
 # Offered levels and the fields each level sends, per provider and protocol
 
-## fields 12053068 (190 models, e.g. alibaba/unknown-model)
+## fields 12053068 (199 models, e.g. alibaba/unknown-model)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: none
@@ -48,7 +48,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: nothing (Reasoning controls for <model> are unknown; the runtime default was omitted.)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 264adbd5 (7 models, e.g. aihubmix/gemini-3-flash-preview)
+## fields 264adbd5 (8 models, e.g. aihubmix/gemini-3-flash-preview)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: google default=high [minimal low medium high]
@@ -142,7 +142,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: disabled
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 3e731a43 (45 models, e.g. grok-4.20)
+## fields 3e731a43 (47 models, e.g. grok-4.20)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: xai default=high [low medium high xhigh]
@@ -191,7 +191,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: low (<model> cannot disable thinking; using its lowest supported setting (low).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 48046c0e (61 models, e.g. azure/eu/gpt-5)
+## fields 48046c0e (62 models, e.g. azure/eu/gpt-5)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: openai default=medium [minimal low medium high]
@@ -240,7 +240,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: minimal (<model> cannot disable thinking; using its lowest supported setting (minimal).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 50665211 (57 models, e.g. azure/eu/o1-2024-12-17)
+## fields 50665211 (63 models, e.g. azure/eu/o1)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: openai default=medium [low medium high]
@@ -286,7 +286,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: low (<model> cannot disable thinking; using its lowest supported setting (low).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 5242c02e (29 models, e.g. dashscope/qwen3-next-80b-a3b-thinking)
+## fields 5242c02e (31 models, e.g. dashscope/qwen3-next-80b-a3b-thinking)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: qwen default=automatic [automatic]
@@ -327,7 +327,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: automatic (<model> cannot disable thinking; using its lowest supported setting (automatic).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 5a3dba94 (54 models, e.g. azure/apac/gpt-6.1-sol)
+## fields 5a3dba94 (84 models, e.g. azure/apac/gpt-6.1-sol)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: openai default=- [none minimal low medium high xhigh max]
@@ -528,7 +528,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: automatic (<model> cannot disable thinking; using its lowest supported setting (automatic).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 70282732 (24 models, e.g. aihubmix/qwen3.8-flash)
+## fields 70282732 (35 models, e.g. aiand/qwen/qwen3.8-27b)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: qwen default=xhigh [disabled automatic low medium xhigh]
@@ -572,7 +572,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: disabled
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 7242c71e (163 models, e.g. aihubmix/gpt-5.3-codex)
+## fields 7242c71e (181 models, e.g. aihubmix/gpt-5.3-codex)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: openai default=medium [none minimal low medium high xhigh]
@@ -712,7 +712,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: high (<model> cannot disable thinking; using its lowest supported setting (high).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 7af22a68 (406 models, e.g. aihubmix/claude-haiku-4-5)
+## fields 7af22a68 (453 models, e.g. aiand/google/gemma-4-31b-it)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: none
@@ -749,7 +749,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: nothing (Reasoning controls for <model> are unknown; the runtime default was omitted.)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 7cd6eaf6 (169 models, e.g. DeepSeek-V4-Flash)
+## fields 7cd6eaf6 (229 models, e.g. DeepSeek-V4-Flash)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: deepseek default=high [disabled high max]
@@ -795,7 +795,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: disabled
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 7d8e3822 (74 models, e.g. aihubmix/claude-fable-5)
+## fields 7d8e3822 (84 models, e.g. aihubmix/claude-fable-5)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: anthropic default=high [low medium high xhigh max]
@@ -847,7 +847,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: low (<model> cannot disable thinking; using its lowest supported setting (low).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 890864de (10 models, e.g. anthropic.claude-opus-4-5-20251101-v1:0)
+## fields 890864de (11 models, e.g. anthropic.claude-opus-4-5-20251101-v1:0)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: anthropic default=high [disabled low medium high]
@@ -896,7 +896,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: disabled
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 8a7ba322 (57 models, e.g. aihubmix/grok-4-20-non-reasoning)
+## fields 8a7ba322 (68 models, e.g. aihubmix/grok-4-20-non-reasoning)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: xai default=high [low medium high]
@@ -996,7 +996,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: none
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 9186288e (24 models, e.g. aihubmix/qwen3.6-max-preview)
+## fields 9186288e (29 models, e.g. aihubmix/qwen3.6-max-preview)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: qwen default=- [disabled automatic low(2048) medium(8192) high(16384)]
@@ -1040,7 +1040,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: disabled
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 92eae6cd (5 models, e.g. aihubmix/qwen3.8-2.4t-a95b)
+## fields 92eae6cd (6 models, e.g. aihubmix/qwen3.8-2.4t-a95b)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: qwen default=xhigh [automatic low medium xhigh]
@@ -1084,7 +1084,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: automatic (<model> cannot disable thinking; using its lowest supported setting (automatic).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 94a111ce (213 models, e.g. aihubmix/qwen3-coder-next)
+## fields 94a111ce (261 models, e.g. aiand/qwen/qwen3.6-27b)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: qwen default=- [disabled automatic]
@@ -1125,7 +1125,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: disabled
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 97e18daf (1874 models, e.g. 1024-x-1024/50-steps/bedrock/amazon.nova-canvas-v1:0)
+## fields 97e18daf (2163 models, e.g. 1024-x-1024/50-steps/bedrock/amazon.nova-canvas-v1:0)
 provider custom:
   (no protocol)
     profile: none
@@ -1404,7 +1404,7 @@ provider dashscope:
     runtime default off: nothing (Reasoning controls for <model> are unknown; the runtime default was omitted.)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 9a276813 (546 models, e.g. 1024-x-1024/gpt-image-1.5)
+## fields 9a276813 (593 models, e.g. 1024-x-1024/gpt-image-1.5)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: none
@@ -1450,7 +1450,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: nothing (Reasoning controls for <model> are unknown; the runtime default was omitted.)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields 9f8e939c (51 models, e.g. aihubmix/grok-build-0.1)
+## fields 9f8e939c (67 models, e.g. aihubmix/grok-build-0.1)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: none
@@ -1496,7 +1496,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: nothing (Reasoning controls for <model> are unknown; the runtime default was omitted.)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields ae431ad8 (7 models, e.g. aihubmix/gemini-3.1-pro-preview)
+## fields ae431ad8 (9 models, e.g. aihubmix/gemini-3.1-pro-preview)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: google default=high [low medium high]
@@ -1546,7 +1546,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: low (<model> cannot disable thinking; using its lowest supported setting (low).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields aeebecb0 (26 models, e.g. anthropic.claude-opus-4-6-v1)
+## fields aeebecb0 (29 models, e.g. anthropic.claude-opus-4-6-v1)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: anthropic default=high [disabled low medium high max]
@@ -1598,7 +1598,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: disabled
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields cb2d68dd (70 models, e.g. aihubmix/claude-opus-4-8-think)
+## fields cb2d68dd (78 models, e.g. aihubmix/claude-opus-4-8-think)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: anthropic default=high [disabled low medium high xhigh max]
@@ -1653,7 +1653,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: disabled
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields d08f0d07 (11 models, e.g. deepinfra/google/gemini-3.5-flash)
+## fields d08f0d07 (15 models, e.g. deepinfra/google/gemini-3.5-flash)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: google default=medium [minimal low medium high]
@@ -1706,7 +1706,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: minimal (<model> cannot disable thinking; using its lowest supported setting (minimal).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields d0fa1e3c (12 models, e.g. aihubmix/gemini-3.7-flash)
+## fields d0fa1e3c (16 models, e.g. aihubmix/gemini-3.7-flash)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: google default=medium [low medium high]
@@ -1807,7 +1807,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: none
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields e6790487 (13 models, e.g. aihubmix/gemini-3.5-flash-lite)
+## fields e6790487 (16 models, e.g. aihubmix/gemini-3.5-flash-lite)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: google default=minimal [minimal low medium high]
@@ -1860,7 +1860,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off: minimal (<model> cannot disable thinking; using its lowest supported setting (minimal).)
     provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {}
 
-## fields e7f5c7af (91 models, e.g. azure_ai/FW-DeepSeek-V3.2)
+## fields e7f5c7af (102 models, e.g. azure_ai/FW-DeepSeek-V3.2)
 provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   (no protocol)
     profile: none
@@ -1926,7 +1926,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies 06bb3dc6 (4 models, e.g. bedrock_mantle/openai.gpt-6-astra)
+## bodies 06bb3dc6 (10 models, e.g. bedrock_mantle/openai.gpt-6-astra)
   openai-chat-v1
     runtime default off,none: {"max_tokens":1000,"reasoning_effort":"none","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -1960,7 +1960,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies 0b2308d5 (8 models, e.g. global.xai.grok-4.6)
+## bodies 0b2308d5 (9 models, e.g. global.xai.grok-4.6)
   openai-chat-v1
     runtime default off,low: {"max_tokens":1000,"reasoning_effort":"low","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2041,7 +2041,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies 11f00057 (155 models, e.g. ai21.j2-mid-v1)
+## bodies 11f00057 (163 models, e.g. ai21.j2-mid-v1)
   openai-chat-v1
     runtime default off,automatic: {"max_tokens":1000,"temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2077,7 +2077,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies 1a392d4d (6 models, e.g. gpt-6)
+## bodies 1a392d4d (10 models, e.g. gpt-6)
   openai-chat-v1
     runtime default off,none: {"max_completion_tokens":1000,"reasoning_effort":"none","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_completion_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2112,7 +2112,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies 1b5a78cb (95 models, e.g. aihubmix/deepseek-v4-flash)
+## bodies 1b5a78cb (145 models, e.g. aiand/deepseek-ai/deepseek-v4-flash)
   openai-chat-v1
     runtime default off,disabled: {"max_tokens":1000,"temperature":0.7,"thinking":{"type":"disabled"},"tool_choice":"required","top_p":0.9}
     provider-default,automatic,none,minimal,low,medium,xhigh: {"max_tokens":1000,"temperature":0.7,"top_p":0.9}
@@ -2133,7 +2133,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies 1edb4060 (1103 models, e.g. 1024-x-1024/gpt-image-1.5)
+## bodies 1edb4060 (1223 models, e.g. 1024-x-1024/gpt-image-1.5)
   openai-chat-v1
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"max_tokens":1000,"temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2234,7 +2234,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     medium: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"thinkingConfig":{"thinkingBudget":8192},"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     high: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"thinkingConfig":{"thinkingBudget":24576},"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
 
-## bodies 29b7b224 (61 models, e.g. aihubmix/gemini-3.7-flash)
+## bodies 29b7b224 (75 models, e.g. aihubmix/gemini-3.7-flash)
   openai-chat-v1
     runtime default off,low: {"max_tokens":1000,"reasoning_effort":"low","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2256,7 +2256,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies 29f44933 (10 models, e.g. global.openai.gpt-6-astra)
+## bodies 29f44933 (12 models, e.g. global.openai.gpt-6-astra)
   openai-chat-v1
     runtime default off,none: {"max_tokens":1000,"reasoning_effort":"none","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2317,7 +2317,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies 2c52eb91 (8 models, e.g. aihubmix/claude-fable-5)
+## bodies 2c52eb91 (10 models, e.g. aihubmix/claude-fable-5)
   openai-chat-v1
     runtime default off,low: {"max_tokens":1000,"reasoning_effort":"low","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2445,7 +2445,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     medium: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"thinkingConfig":{"thinkingLevel":"medium"},"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     high: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"thinkingConfig":{"thinkingLevel":"high"},"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
 
-## bodies 48429573 (205 models, e.g. aihubmix/qwen3-coder-next)
+## bodies 48429573 (253 models, e.g. aiand/qwen/qwen3.6-27b)
   openai-chat-v1
     runtime default off,disabled: {"enable_thinking":false,"max_tokens":1000,"temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2485,7 +2485,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies 54c17182 (17 models, e.g. aihubmix/qwen3.6-max-preview)
+## bodies 54c17182 (22 models, e.g. aihubmix/qwen3.6-max-preview)
   openai-chat-v1
     runtime default off,disabled: {"enable_thinking":false,"max_tokens":1000,"temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2553,7 +2553,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     medium: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"thinkingConfig":{"thinkingBudget":8192},"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     high: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"thinkingConfig":{"thinkingBudget":24576},"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
 
-## bodies 56aa525f (116 models, e.g. aihubmix/gpt-5.3-codex)
+## bodies 56aa525f (134 models, e.g. aihubmix/gpt-5.3-codex)
   openai-chat-v1
     runtime default off,none: {"max_completion_tokens":1000,"reasoning_effort":"none","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_completion_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2584,7 +2584,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies 5feb3e82 (28 models, e.g. dashscope/qwen3-next-80b-a3b-thinking)
+## bodies 5feb3e82 (30 models, e.g. dashscope/qwen3-next-80b-a3b-thinking)
   openai-chat-v1
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"enable_thinking":true,"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2599,7 +2599,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies 6007d524 (15 models, e.g. azure/eu/o1-2024-12-17)
+## bodies 6007d524 (15 models, e.g. azure/eu/o1)
   openai-chat-v1
     runtime default off,low: {"max_completion_tokens":1000,"reasoning_effort":"low","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_completion_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2621,7 +2621,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies 60a25f63 (3 models, e.g. aihubmix/qwen3.8-2.4t-a95b)
+## bodies 60a25f63 (4 models, e.g. aihubmix/qwen3.8-2.4t-a95b)
   openai-chat-v1
     runtime default off,disabled,automatic,none,minimal,high,max: {"enable_thinking":true,"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2754,7 +2754,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies 7c4c748f (23 models, e.g. azure/eu/o3-2025-04-16)
+## bodies 7c4c748f (29 models, e.g. azure/eu/o3)
   openai-chat-v1
     runtime default off,low: {"max_completion_tokens":1000,"reasoning_effort":"low","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_completion_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2823,7 +2823,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies 98325674 (43 models, e.g. oci/xai.grok-4.20)
+## bodies 98325674 (45 models, e.g. kyma/grok-4.20)
   openai-chat-v1
     runtime default off,low: {"max_tokens":1000,"reasoning_effort":"low","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2848,7 +2848,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies a3294578 (34 models, e.g. aihubmix/claude-opus-4-8-think)
+## bodies a3294578 (42 models, e.g. aihubmix/claude-opus-4-8-think)
   openai-chat-v1
     runtime default off,disabled: {"max_tokens":1000,"reasoning_effort":"none","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2959,7 +2959,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies bda9263a (176 models, e.g. anthropic.claude-haiku-5-5)
+## bodies bda9263a (186 models, e.g. anthropic.claude-haiku-5-5)
   openai-chat-v1
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"max_tokens":1000,"temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2973,7 +2973,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies c9071d93 (43 models, e.g. aihubmix/gemini-3-flash-preview)
+## bodies c9071d93 (52 models, e.g. aihubmix/gemini-3-flash-preview)
   openai-chat-v1
     runtime default off,minimal: {"max_tokens":1000,"reasoning_effort":"minimal","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -2998,7 +2998,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies cbb882e7 (25 models, e.g. azure_ai/claude-fable-5-1)
+## bodies cbb882e7 (33 models, e.g. azure_ai/claude-fable-5-1)
   openai-chat-v1
     runtime default off,low: {"max_tokens":1000,"reasoning_effort":"low","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -3026,7 +3026,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies ccbf4d97 (8 models, e.g. anthropic.claude-opus-4-5-20251101-v1:0)
+## bodies ccbf4d97 (9 models, e.g. anthropic.claude-opus-4-5-20251101-v1:0)
   openai-chat-v1
     runtime default off,disabled: {"max_tokens":1000,"reasoning_effort":"none","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -3198,7 +3198,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies dd588f9f (11 models, e.g. azure_ai/claude-opus-4-6)
+## bodies dd588f9f (14 models, e.g. azure_ai/claude-opus-4-6)
   openai-chat-v1
     runtime default off,disabled: {"max_tokens":1000,"reasoning_effort":"none","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -3226,7 +3226,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies ddcbad0a (34 models, e.g. azure/apac/gpt-6.1-sol)
+## bodies ddcbad0a (52 models, e.g. azure/apac/gpt-6.1-sol)
   openai-chat-v1
     runtime default off,none: {"max_completion_tokens":1000,"reasoning_effort":"none","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_completion_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -3279,7 +3279,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies e543bd67 (20 models, e.g. aihubmix/qwen3.8-flash)
+## bodies e543bd67 (31 models, e.g. aiand/qwen/qwen3.8-27b)
   openai-chat-v1
     runtime default off,disabled: {"enable_thinking":false,"max_tokens":1000,"reasoning_effort":"none","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -3357,7 +3357,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies f20e29e6 (1719 models, e.g. 1024-x-1024/50-steps/bedrock/amazon.nova-canvas-v1:0)
+## bodies f20e29e6 (2000 models, e.g. 1024-x-1024/50-steps/bedrock/amazon.nova-canvas-v1:0)
   openai-chat-v1
     runtime default off,automatic: {"max_tokens":1000,"temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -3392,7 +3392,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
   google-generative-ai-v1
     runtime default off,provider-default,disabled,automatic,none,minimal,low,medium,high,xhigh,max: no request
 
-## bodies f250f9bc (9 models, e.g. aihubmix/gemini-3.1-pro-preview)
+## bodies f250f9bc (11 models, e.g. aihubmix/gemini-3.1-pro-preview)
   openai-chat-v1
     runtime default off,minimal: {"max_tokens":1000,"reasoning_effort":"minimal","temperature":0.7,"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -3438,7 +3438,7 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
     runtime default off,disabled,automatic,none,minimal,low,medium,high,xhigh,max: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"ANY"}}}
     provider-default: {"generationConfig":{"maxOutputTokens":1000,"temperature":0.7,"topK":40,"topP":0.9},"toolConfig":{"functionCallingConfig":{"mode":"AUTO"}}}
 
-## bodies f830728e (64 models, e.g. azure_ai/deepseek-r1)
+## bodies f830728e (74 models, e.g. azure_ai/deepseek-r1)
   openai-chat-v1
     runtime default off,disabled: {"max_tokens":1000,"temperature":0.7,"thinking":{"type":"disabled"},"tool_choice":"required","top_p":0.9}
     provider-default: {"max_tokens":1000,"temperature":0.7,"tool_choice":"auto","top_p":0.9}
@@ -3548,12 +3548,31 @@ provider custom,openai,anthropic,deepseek,google,xai,dashscope:
 512-x-512/50-steps/stability.stable-diffusion-xl-v0	97e18daf	f20e29e6
 512-x-512/max-steps/stability.stable-diffusion-xl-v0	97e18daf	f20e29e6
 DeepSeek-V4-Flash	7cd6eaf6	ac0cc680
+abliteration/abliterated-model	97e18daf	f20e29e6
+abliteration/abliterated-model-large	97e18daf	f20e29e6
+abliteration/abliterated-model-large-flash	97e18daf	f20e29e6
+abliteration/abliterated-model-large-v2	97e18daf	f20e29e6
 agentcore/search	97e18daf	f20e29e6
 ai21.j2-mid-v1	97e18daf	11f00057
 ai21.j2-ultra-v1	97e18daf	11f00057
 ai21.jamba-1-5-large-v1:0	97e18daf	f20e29e6
 ai21.jamba-1-5-mini-v1:0	97e18daf	f20e29e6
 ai21.jamba-instruct-v1:0	97e18daf	f20e29e6
+aiand/deepseek-ai/deepseek-v4-flash	7cd6eaf6	1b5a78cb
+aiand/deepseek-ai/deepseek-v4-pro	7cd6eaf6	1b5a78cb
+aiand/deepseek-ai/deepseek-v4.1-flash	7cd6eaf6	1b5a78cb
+aiand/deepseek-ai/deepseek-v4.1-flash-1017	7cd6eaf6	1b5a78cb
+aiand/google/gemma-4-31b-it	7af22a68	1edb4060
+aiand/meta/muse-spark-open	97e18daf	f20e29e6
+aiand/moonshotai/kimi-k2.7-code	97e18daf	f20e29e6
+aiand/moonshotai/kimi-k3	97e18daf	f20e29e6
+aiand/motif-technologies/motif-3	97e18daf	f20e29e6
+aiand/openai/gpt-oss-120b	9a276813	1edb4060
+aiand/qwen/qwen3.6-27b	94a111ce	48429573
+aiand/qwen/qwen3.8-27b	70282732	e543bd67
+aiand/zai-org/glm-5.2	97e18daf	f20e29e6
+aiand/zai-org/glm-5.3	97e18daf	f20e29e6
+aiand/zai-org/glm-5.3-flash	97e18daf	f20e29e6
 aihubmix/agnes-2.5-flash	97e18daf	f20e29e6
 aihubmix/agnes-2.5-pro	97e18daf	f20e29e6
 aihubmix/cc-glm-5.1	97e18daf	f20e29e6
@@ -3750,9 +3769,9 @@ aws_polly/neural	97e18daf	f20e29e6
 aws_polly/standard	97e18daf	f20e29e6
 azure/ada	97e18daf	f20e29e6
 azure/apac/gpt-6.1-sol	5a3dba94	ddcbad0a
+azure/apac/gpt-6.1-terra	5a3dba94	ddcbad0a
 azure/chat-latest	97e18daf	f20e29e6
 azure/codex-mini	97e18daf	f20e29e6
-azure/command-r-plus	97e18daf	f20e29e6
 azure/computer-use-preview	97e18daf	f20e29e6
 azure/container	97e18daf	f20e29e6
 azure/eu/codex-mini	97e18daf	f20e29e6
@@ -3760,12 +3779,13 @@ azure/eu/computer-use-preview	97e18daf	f20e29e6
 azure/eu/gpt-4.1	9a276813	1edb4060
 azure/eu/gpt-4.1-mini	9a276813	1edb4060
 azure/eu/gpt-4.1-nano	9a276813	1edb4060
+azure/eu/gpt-4o	9a276813	1edb4060
 azure/eu/gpt-4o-2024-05-13	9a276813	1edb4060
 azure/eu/gpt-4o-2024-08-06	9a276813	1edb4060
 azure/eu/gpt-4o-2024-11-20	9a276813	1edb4060
+azure/eu/gpt-4o-mini	9a276813	1edb4060
 azure/eu/gpt-4o-mini-2024-07-18	9a276813	1edb4060
 azure/eu/gpt-4o-mini-realtime-preview-2024-12-17	9a276813	1edb4060
-azure/eu/gpt-4o-realtime-preview-2024-10-01	9a276813	1edb4060
 azure/eu/gpt-4o-realtime-preview-2024-12-17	9a276813	1edb4060
 azure/eu/gpt-5	48046c0e	2789b834
 azure/eu/gpt-5-2025-08-07	48046c0e	2789b834
@@ -3802,13 +3822,17 @@ azure/eu/gpt-6-astra	5a3dba94	ddcbad0a
 azure/eu/gpt-6-luna	5a3dba94	ddcbad0a
 azure/eu/gpt-6-sol	5a3dba94	ddcbad0a
 azure/eu/gpt-6.1-sol	5a3dba94	ddcbad0a
+azure/eu/gpt-6.1-terra	5a3dba94	ddcbad0a
+azure/eu/o1	50665211	6007d524
 azure/eu/o1-2024-12-17	50665211	6007d524
 azure/eu/o1-mini	50665211	6007d524
 azure/eu/o1-mini-2024-09-12	50665211	6007d524
-azure/eu/o1-preview	50665211	6007d524
+azure/eu/o3	50665211	7c4c748f
 azure/eu/o3-2025-04-16	50665211	7c4c748f
 azure/eu/o3-deep-research	50665211	7c4c748f
+azure/eu/o3-mini	50665211	7c4c748f
 azure/eu/o3-mini-2025-01-31	50665211	7c4c748f
+azure/eu/o4-mini	50665211	7c4c748f
 azure/eu/o4-mini-2025-04-16	50665211	7c4c748f
 azure/eu/text-embedding-3-large	97e18daf	f20e29e6
 azure/eu/text-embedding-3-small	97e18daf	f20e29e6
@@ -3824,16 +3848,10 @@ azure/global/gpt-5.1-codex-mini	68735238	d0026c49
 azure/gpt-3.5-turbo	9a276813	1edb4060
 azure/gpt-3.5-turbo-instruct-0914	9a276813	1edb4060
 azure/gpt-35-turbo	9a276813	1edb4060
-azure/gpt-35-turbo-16k	9a276813	1edb4060
-azure/gpt-35-turbo-16k-0613	9a276813	1edb4060
 azure/gpt-35-turbo-instruct	9a276813	1edb4060
 azure/gpt-35-turbo-instruct-0914	9a276813	1edb4060
-azure/gpt-4	9a276813	1edb4060
 azure/gpt-4-0125-preview	9a276813	1edb4060
-azure/gpt-4-0613	9a276813	1edb4060
 azure/gpt-4-1106-preview	9a276813	1edb4060
-azure/gpt-4-32k	9a276813	1edb4060
-azure/gpt-4-32k-0613	9a276813	1edb4060
 azure/gpt-4-turbo	9a276813	1edb4060
 azure/gpt-4-turbo-2024-04-09	9a276813	1edb4060
 azure/gpt-4-turbo-vision-preview	9a276813	1edb4060
@@ -3843,7 +3861,6 @@ azure/gpt-4.1-mini	9a276813	1edb4060
 azure/gpt-4.1-mini-2025-04-14	9a276813	1edb4060
 azure/gpt-4.1-nano	9a276813	1edb4060
 azure/gpt-4.1-nano-2025-04-14	9a276813	1edb4060
-azure/gpt-4.5-preview	9a276813	1edb4060
 azure/gpt-4o	9a276813	1edb4060
 azure/gpt-4o-2024-05-13	9a276813	1edb4060
 azure/gpt-4o-2024-08-06	9a276813	1edb4060
@@ -3855,7 +3872,6 @@ azure/gpt-4o-mini-audio-preview-2024-12-17	9a276813	1edb4060
 azure/gpt-4o-mini-realtime-preview-2024-12-17	9a276813	1edb4060
 azure/gpt-4o-mini-transcribe	9a276813	1edb4060
 azure/gpt-4o-mini-tts	9a276813	1edb4060
-azure/gpt-4o-realtime-preview-2024-10-01	9a276813	1edb4060
 azure/gpt-4o-realtime-preview-2024-12-17	9a276813	1edb4060
 azure/gpt-4o-transcribe	9a276813	1edb4060
 azure/gpt-4o-transcribe-diarize	9a276813	1edb4060
@@ -3912,6 +3928,8 @@ azure/gpt-6-sol	5a3dba94	ddcbad0a
 azure/gpt-6-sol-2026-09-22	5a3dba94	ddcbad0a
 azure/gpt-6.1-sol	5a3dba94	ddcbad0a
 azure/gpt-6.1-sol-2026-09-29	5a3dba94	ddcbad0a
+azure/gpt-6.1-terra	5a3dba94	ddcbad0a
+azure/gpt-astra-latest	9a276813	1edb4060
 azure/gpt-audio	9a276813	1edb4060
 azure/gpt-audio-1.5	9a276813	1edb4060
 azure/gpt-audio-1.5-2026-02-23	9a276813	1edb4060
@@ -3929,17 +3947,27 @@ azure/gpt-image-2.5-flare	9a276813	1edb4060
 azure/gpt-image-2.5-sunburst	9a276813	1edb4060
 azure/gpt-live-1	9a276813	1edb4060
 azure/gpt-live-transcribe	9a276813	1edb4060
+azure/gpt-luna-latest	9a276813	1edb4060
+azure/gpt-mini-latest	9a276813	1edb4060
 azure/gpt-realtime	9a276813	1edb4060
 azure/gpt-realtime-1.5	9a276813	1edb4060
 azure/gpt-realtime-1.5-2026-02-23	9a276813	1edb4060
 azure/gpt-realtime-2	9a276813	1edb4060
 azure/gpt-realtime-2.1	9a276813	1edb4060
+azure/gpt-realtime-2.1-2026-07-07	9a276813	1edb4060
 azure/gpt-realtime-2.1-mini	9a276813	1edb4060
+azure/gpt-realtime-2.1-mini-2026-07-07	9a276813	1edb4060
 azure/gpt-realtime-2025-08-28	9a276813	1edb4060
 azure/gpt-realtime-mini	9a276813	1edb4060
 azure/gpt-realtime-mini-2025-10-06	9a276813	1edb4060
 azure/gpt-realtime-translate	9a276813	1edb4060
+azure/gpt-realtime-translate-2026-05-06	9a276813	1edb4060
+azure/gpt-realtime-translate-2026-05-07	9a276813	1edb4060
 azure/gpt-realtime-whisper	9a276813	1edb4060
+azure/gpt-realtime-whisper-2026-05-06	9a276813	1edb4060
+azure/gpt-realtime-whisper-2026-05-07	9a276813	1edb4060
+azure/gpt-sol-latest	9a276813	1edb4060
+azure/gpt-terra-latest	9a276813	1edb4060
 azure/gpt-transcribe	9a276813	1edb4060
 azure/hd/1024-x-1024/dall-e-3	97e18daf	f20e29e6
 azure/hd/1024-x-1792/dall-e-3	97e18daf	f20e29e6
@@ -4005,12 +4033,13 @@ azure/us/gpt-4.1-mini	9a276813	1edb4060
 azure/us/gpt-4.1-mini-2025-04-14	9a276813	1edb4060
 azure/us/gpt-4.1-nano	9a276813	1edb4060
 azure/us/gpt-4.1-nano-2025-04-14	9a276813	1edb4060
+azure/us/gpt-4o	9a276813	1edb4060
 azure/us/gpt-4o-2024-05-13	9a276813	1edb4060
 azure/us/gpt-4o-2024-08-06	9a276813	1edb4060
 azure/us/gpt-4o-2024-11-20	9a276813	1edb4060
+azure/us/gpt-4o-mini	9a276813	1edb4060
 azure/us/gpt-4o-mini-2024-07-18	9a276813	1edb4060
 azure/us/gpt-4o-mini-realtime-preview-2024-12-17	9a276813	1edb4060
-azure/us/gpt-4o-realtime-preview-2024-10-01	9a276813	1edb4060
 azure/us/gpt-4o-realtime-preview-2024-12-17	9a276813	1edb4060
 azure/us/gpt-5	48046c0e	2789b834
 azure/us/gpt-5-2025-08-07	48046c0e	2789b834
@@ -4047,14 +4076,21 @@ azure/us/gpt-6-astra	5a3dba94	ddcbad0a
 azure/us/gpt-6-luna	5a3dba94	ddcbad0a
 azure/us/gpt-6-sol	5a3dba94	ddcbad0a
 azure/us/gpt-6.1-sol	5a3dba94	ddcbad0a
+azure/us/gpt-6.1-terra	5a3dba94	ddcbad0a
 azure/us/gpt-chat-latest	9a276813	1edb4060
+azure/us/gpt-realtime-1.5	9a276813	1edb4060
+azure/us/gpt-realtime-2.1	9a276813	1edb4060
+azure/us/gpt-realtime-2.1-mini	9a276813	1edb4060
+azure/us/o1	50665211	6007d524
 azure/us/o1-2024-12-17	50665211	6007d524
 azure/us/o1-mini	50665211	6007d524
 azure/us/o1-mini-2024-09-12	50665211	6007d524
-azure/us/o1-preview	50665211	6007d524
+azure/us/o3	50665211	7c4c748f
 azure/us/o3-2025-04-16	50665211	7c4c748f
 azure/us/o3-deep-research	50665211	7c4c748f
+azure/us/o3-mini	50665211	7c4c748f
 azure/us/o3-mini-2025-01-31	50665211	7c4c748f
+azure/us/o4-mini	50665211	7c4c748f
 azure/us/o4-mini-2025-04-16	50665211	7c4c748f
 azure/us/text-embedding-3-large	97e18daf	f20e29e6
 azure/us/text-embedding-3-small	97e18daf	f20e29e6
@@ -4095,6 +4131,7 @@ azure_ai/FW-Nemotron-Lightning-3.5-30B-A3B	97e18daf	f20e29e6
 azure_ai/Llama-3.3-70B-Instruct	97e18daf	f20e29e6
 azure_ai/Llama-4-Maverick-17B-128E-Instruct-FP8	97e18daf	f20e29e6
 azure_ai/Llama-4-Scout-17B-16E-Instruct	97e18daf	f20e29e6
+azure_ai/MAI-Code-1.1-Flash	97e18daf	f20e29e6
 azure_ai/MAI-Cyber-1-Flash	97e18daf	f20e29e6
 azure_ai/MAI-DS-R1	97e18daf	f20e29e6
 azure_ai/MAI-Image-2.5	97e18daf	f20e29e6
@@ -4103,18 +4140,7 @@ azure_ai/MAI-Image-2.5-Pro	97e18daf	f20e29e6
 azure_ai/MAI-Image-2.6	97e18daf	f20e29e6
 azure_ai/MAI-Image-2.6-Flash	97e18daf	f20e29e6
 azure_ai/MAI-Thinking-1	97e18daf	f20e29e6
-azure_ai/Meta-Llama-3-70B-Instruct	97e18daf	f20e29e6
-azure_ai/Meta-Llama-3.1-70B-Instruct	97e18daf	f20e29e6
 azure_ai/Microsoft-Decision-1	97e18daf	f20e29e6
-azure_ai/Phi-3-medium-128k-instruct	97e18daf	f20e29e6
-azure_ai/Phi-3-medium-4k-instruct	97e18daf	f20e29e6
-azure_ai/Phi-3-mini-128k-instruct	97e18daf	f20e29e6
-azure_ai/Phi-3-mini-4k-instruct	97e18daf	f20e29e6
-azure_ai/Phi-3-small-128k-instruct	97e18daf	f20e29e6
-azure_ai/Phi-3-small-8k-instruct	97e18daf	f20e29e6
-azure_ai/Phi-3.5-MoE-instruct	97e18daf	f20e29e6
-azure_ai/Phi-3.5-mini-instruct	97e18daf	f20e29e6
-azure_ai/Phi-3.5-vision-instruct	97e18daf	f20e29e6
 azure_ai/Phi-4	97e18daf	f20e29e6
 azure_ai/Phi-4-mini-instruct	97e18daf	f20e29e6
 azure_ai/Phi-4-mini-reasoning	97e18daf	f20e29e6
@@ -4122,8 +4148,11 @@ azure_ai/Phi-4-multimodal-instruct	97e18daf	f20e29e6
 azure_ai/Phi-4-reasoning	97e18daf	f20e29e6
 azure_ai/claude-fable-5	7d8e3822	2c52eb91
 azure_ai/claude-fable-5-1	7d8e3822	cbb882e7
+azure_ai/claude-fable-latest	7af22a68	1edb4060
 azure_ai/claude-haiku-4-5	7af22a68	1edb4060
 azure_ai/claude-haiku-5-5	7af22a68	1edb4060
+azure_ai/claude-haiku-latest	7af22a68	1edb4060
+azure_ai/claude-mythos-5-1	7d8e3822	cbb882e7
 azure_ai/claude-opus-4-5	890864de	ccbf4d97
 azure_ai/claude-opus-4-6	aeebecb0	dd588f9f
 azure_ai/claude-opus-4-7	cb2d68dd	a3294578
@@ -4131,18 +4160,21 @@ azure_ai/claude-opus-4-8	cb2d68dd	a3294578
 azure_ai/claude-opus-5	cb2d68dd	a3294578
 azure_ai/claude-opus-5-5	7d8e3822	cbb882e7
 azure_ai/claude-opus-5-5-fast	7d8e3822	cbb882e7
+azure_ai/claude-opus-latest	7af22a68	1edb4060
 azure_ai/claude-sonnet-4-5	7af22a68	1edb4060
 azure_ai/claude-sonnet-4-6	aeebecb0	dd588f9f
 azure_ai/claude-sonnet-5	cb2d68dd	a3294578
 azure_ai/claude-sonnet-5-5	7d8e3822	cbb882e7
+azure_ai/claude-sonnet-latest	7af22a68	1edb4060
 azure_ai/codex-mini	97e18daf	f20e29e6
 azure_ai/cohere-command-a	97e18daf	f20e29e6
-azure_ai/cohere-rerank-v3-english	97e18daf	f20e29e6
-azure_ai/cohere-rerank-v3-multilingual	97e18daf	f20e29e6
 azure_ai/cohere-rerank-v4.0-fast	97e18daf	f20e29e6
 azure_ai/cohere-rerank-v4.0-pro	97e18daf	f20e29e6
+azure_ai/cohere-rerank-v5-fast	97e18daf	f20e29e6
+azure_ai/cohere-rerank-v5-pro	97e18daf	f20e29e6
+azure_ai/deepseek-flash-latest	7cd6eaf6	1b5a78cb
+azure_ai/deepseek-pro-latest	e7f5c7af	1edb4060
 azure_ai/deepseek-r1	7cd6eaf6	f830728e
-azure_ai/deepseek-v3	e7f5c7af	1edb4060
 azure_ai/deepseek-v3-0324	e7f5c7af	1edb4060
 azure_ai/deepseek-v3.1	e7f5c7af	1edb4060
 azure_ai/deepseek-v3.2	e7f5c7af	1edb4060
@@ -4155,6 +4187,8 @@ azure_ai/doc-intelligence/prebuilt-layout	97e18daf	f20e29e6
 azure_ai/doc-intelligence/prebuilt-read	97e18daf	f20e29e6
 azure_ai/embed-v-4-0	97e18daf	f20e29e6
 azure_ai/flux.2-pro	97e18daf	f20e29e6
+azure_ai/glm-flash-latest	97e18daf	f20e29e6
+azure_ai/glm-latest	97e18daf	f20e29e6
 azure_ai/gpt-5.4	7242c71e	56aa525f
 azure_ai/gpt-5.4-2026-03-05	7242c71e	56aa525f
 azure_ai/gpt-5.4-mini	7242c71e	56aa525f
@@ -4170,9 +4204,15 @@ azure_ai/gpt-6-astra	5a3dba94	ddcbad0a
 azure_ai/gpt-6-luna	5a3dba94	ddcbad0a
 azure_ai/gpt-6-sol	5a3dba94	ddcbad0a
 azure_ai/gpt-6.1-sol	5a3dba94	ddcbad0a
+azure_ai/gpt-6.1-terra	5a3dba94	ddcbad0a
+azure_ai/gpt-astra-latest	9a276813	1edb4060
 azure_ai/gpt-chat-latest	9a276813	1edb4060
 azure_ai/gpt-image-2	9a276813	1edb4060
+azure_ai/gpt-luna-latest	9a276813	1edb4060
+azure_ai/gpt-mini-latest	9a276813	1edb4060
 azure_ai/gpt-oss-120b	9a276813	1edb4060
+azure_ai/gpt-sol-latest	9a276813	1edb4060
+azure_ai/gpt-terra-latest	9a276813	1edb4060
 azure_ai/grok-3	9f8e939c	1edb4060
 azure_ai/grok-3-mini	8a7ba322	29b7b224
 azure_ai/grok-4	8a7ba322	29b7b224
@@ -4186,16 +4226,16 @@ azure_ai/grok-4.3	8a7ba322	29b7b224
 azure_ai/grok-4.6	8a7ba322	29b7b224
 azure_ai/grok-4.7	8a7ba322	29b7b224
 azure_ai/grok-code-fast-1	9f8e939c	1edb4060
+azure_ai/grok-latest	9f8e939c	1edb4060
 azure_ai/jais-30b-chat	97e18daf	f20e29e6
-azure_ai/jamba-instruct	97e18daf	f20e29e6
 azure_ai/kimi-k2-thinking	97e18daf	f20e29e6
 azure_ai/kimi-k2.5	97e18daf	f20e29e6
 azure_ai/kimi-k2.6	97e18daf	f20e29e6
 azure_ai/kimi-k2.7-code	97e18daf	f20e29e6
+azure_ai/kimi-latest	97e18daf	f20e29e6
+azure_ai/minimax-latest	97e18daf	f20e29e6
 azure_ai/ministral-3b	97e18daf	f20e29e6
 azure_ai/mistral-document-ai-2512	97e18daf	f20e29e6
-azure_ai/mistral-large	97e18daf	f20e29e6
-azure_ai/mistral-large-2407	97e18daf	f20e29e6
 azure_ai/mistral-large-3	97e18daf	f20e29e6
 azure_ai/mistral-large-latest	97e18daf	f20e29e6
 azure_ai/mistral-medium-2505	97e18daf	f20e29e6
@@ -4204,13 +4244,15 @@ azure_ai/mistral-nemo	97e18daf	f20e29e6
 azure_ai/mistral-ocr-2505	97e18daf	f20e29e6
 azure_ai/mistral-ocr-2512	97e18daf	f20e29e6
 azure_ai/mistral-ocr-4-0	97e18daf	f20e29e6
-azure_ai/mistral-small	97e18daf	f20e29e6
 azure_ai/mistral-small-2503	97e18daf	f20e29e6
 azure_ai/model-router	97e18daf	f20e29e6
 azure_ai/model_router	97e18daf	f20e29e6
 azure_ai/whisper	97e18daf	f20e29e6
 babbage-002	97e18daf	11f00057
 baseten/MiniMaxAI/MiniMax-M2.5	9f8e939c	1edb4060
+baseten/decision-models/baseten-elephant-9b-latest	97e18daf	f20e29e6
+baseten/decision-models/baseten-joey-2b-latest	97e18daf	f20e29e6
+baseten/decision-models/baseten-mammoth-27b-latest	97e18daf	f20e29e6
 baseten/deepseek-ai/DeepSeek-V3-0324	e7f5c7af	1edb4060
 baseten/deepseek-ai/DeepSeek-V3.1	e7f5c7af	1edb4060
 baseten/deepseek-ai/DeepSeek-V4-Flash-0731	7cd6eaf6	1b5a78cb
@@ -4220,6 +4262,11 @@ baseten/deepseek-ai/DeepSeek-V4.1-Flash	7cd6eaf6	1b5a78cb
 baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017	7cd6eaf6	1b5a78cb
 baseten/deepseek-ai/DeepSeek-V4.1-Flash-1017-Fast	7cd6eaf6	1b5a78cb
 baseten/deepseek-ai/DeepSeek-V4.1-Flash-Fast	7cd6eaf6	1b5a78cb
+baseten/deepseek-flash-latest	7cd6eaf6	1b5a78cb
+baseten/deepseek-pro-latest	e7f5c7af	1edb4060
+baseten/glm-flash-latest	97e18daf	f20e29e6
+baseten/glm-latest	97e18daf	f20e29e6
+baseten/kimi-latest	97e18daf	f20e29e6
 baseten/meta-models/muse-spark-open	97e18daf	f20e29e6
 baseten/moonshotai/Kimi-K2-Instruct-0905	97e18daf	f20e29e6
 baseten/moonshotai/Kimi-K2-Thinking	97e18daf	f20e29e6
@@ -4227,6 +4274,7 @@ baseten/moonshotai/Kimi-K2.5	97e18daf	f20e29e6
 baseten/moonshotai/Kimi-K2.6	97e18daf	f20e29e6
 baseten/moonshotai/Kimi-K2.7-Code	97e18daf	f20e29e6
 baseten/moonshotai/Kimi-K3	97e18daf	f20e29e6
+baseten/moonshotai/Kimi-K3.1-Pro	97e18daf	f20e29e6
 baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B	97e18daf	f20e29e6
 baseten/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B	97e18daf	f20e29e6
 baseten/nvidia/Nemotron-120B-A12B	97e18daf	f20e29e6
@@ -4258,6 +4306,8 @@ bedrock/ap-northeast-1/anthropic.claude-v2:1	7af22a68	1edb4060
 bedrock/ap-northeast-1/deepseek.v3.2	e7f5c7af	1edb4060
 bedrock/ap-northeast-1/minimax.minimax-m2.1	97e18daf	f20e29e6
 bedrock/ap-northeast-1/minimax.minimax-m2.5	97e18daf	f20e29e6
+bedrock/ap-northeast-1/mistral.voxtral-mini-3b-2507	97e18daf	f20e29e6
+bedrock/ap-northeast-1/mistral.voxtral-small-24b-2507	97e18daf	f20e29e6
 bedrock/ap-northeast-1/moonshotai.kimi-k2-thinking	97e18daf	f20e29e6
 bedrock/ap-northeast-1/moonshotai.kimi-k2.5	97e18daf	f20e29e6
 bedrock/ap-northeast-1/qwen.qwen3-coder-next	94a111ce	48429573
@@ -4272,6 +4322,8 @@ bedrock/ap-south-1/moonshotai.kimi-k2.5	97e18daf	f20e29e6
 bedrock/ap-south-1/qwen.qwen3-coder-next	94a111ce	48429573
 bedrock/ap-south-1/qwen.qwen3-next-80b-a3b	94a111ce	48429573
 bedrock/ap-southeast-2/minimax.minimax-m2.5	97e18daf	f20e29e6
+bedrock/ap-southeast-2/mistral.voxtral-mini-3b-2507	97e18daf	f20e29e6
+bedrock/ap-southeast-2/mistral.voxtral-small-24b-2507	97e18daf	f20e29e6
 bedrock/ap-southeast-2/qwen.qwen3-next-80b-a3b	94a111ce	48429573
 bedrock/ap-southeast-3/deepseek.v3.2	e7f5c7af	1edb4060
 bedrock/ap-southeast-3/minimax.minimax-m2.1	97e18daf	f20e29e6
@@ -4280,6 +4332,24 @@ bedrock/ap-southeast-3/moonshotai.kimi-k2.5	97e18daf	f20e29e6
 bedrock/ap-southeast-3/qwen.qwen3-coder-next	94a111ce	48429573
 bedrock/ca-central-1/meta.llama3-70b-instruct-v1:0	97e18daf	f20e29e6
 bedrock/ca-central-1/meta.llama3-8b-instruct-v1:0	97e18daf	f20e29e6
+bedrock/claude-fable-latest	7af22a68	1edb4060
+bedrock/claude-haiku-latest	7af22a68	1edb4060
+bedrock/claude-opus-latest	7af22a68	1edb4060
+bedrock/claude-sonnet-latest	7af22a68	1edb4060
+bedrock/claude_platform/claude-fable-5	7d8e3822	2c52eb91
+bedrock/claude_platform/claude-fable-5-1	7d8e3822	cbb882e7
+bedrock/claude_platform/claude-haiku-4-5	7af22a68	1edb4060
+bedrock/claude_platform/claude-haiku-5-5	7af22a68	1edb4060
+bedrock/claude_platform/claude-opus-4-5	890864de	ccbf4d97
+bedrock/claude_platform/claude-opus-4-6	aeebecb0	dd588f9f
+bedrock/claude_platform/claude-opus-4-7	cb2d68dd	a3294578
+bedrock/claude_platform/claude-opus-4-8	cb2d68dd	a3294578
+bedrock/claude_platform/claude-opus-5	cb2d68dd	a3294578
+bedrock/claude_platform/claude-opus-5-5	7d8e3822	cbb882e7
+bedrock/claude_platform/claude-sonnet-4-5	7af22a68	1edb4060
+bedrock/claude_platform/claude-sonnet-4-6	aeebecb0	dd588f9f
+bedrock/claude_platform/claude-sonnet-5	cb2d68dd	a3294578
+bedrock/claude_platform/claude-sonnet-5-5	7d8e3822	cbb882e7
 bedrock/eu-central-1/1-month-commitment/anthropic.claude-instant-v1	7af22a68	1edb4060
 bedrock/eu-central-1/1-month-commitment/anthropic.claude-v1	7af22a68	1edb4060
 bedrock/eu-central-1/1-month-commitment/anthropic.claude-v2:1	7af22a68	1edb4060
@@ -4309,14 +4379,23 @@ bedrock/eu-west-2/meta.llama3-70b-instruct-v1:0	97e18daf	f20e29e6
 bedrock/eu-west-2/meta.llama3-8b-instruct-v1:0	97e18daf	f20e29e6
 bedrock/eu-west-2/minimax.minimax-m2.1	97e18daf	f20e29e6
 bedrock/eu-west-2/minimax.minimax-m2.5	97e18daf	f20e29e6
+bedrock/eu-west-2/mistral.voxtral-mini-3b-2507	97e18daf	f20e29e6
+bedrock/eu-west-2/mistral.voxtral-small-24b-2507	97e18daf	f20e29e6
 bedrock/eu-west-2/nvidia.nemotron-super-3-120b	97e18daf	f20e29e6
 bedrock/eu-west-2/qwen.qwen3-coder-next	94a111ce	48429573
 bedrock/eu-west-2/qwen.qwen3-next-80b-a3b	94a111ce	48429573
 bedrock/eu-west-3/mistral.mistral-7b-instruct-v0:2	97e18daf	f20e29e6
 bedrock/eu-west-3/mistral.mistral-large-2402-v1:0	97e18daf	f20e29e6
 bedrock/eu-west-3/mistral.mixtral-8x7b-instruct-v0:1	97e18daf	f20e29e6
+bedrock/glm-latest	97e18daf	f20e29e6
+bedrock/gpt-astra-latest	9a276813	1edb4060
+bedrock/gpt-luna-latest	9a276813	1edb4060
+bedrock/gpt-sol-latest	9a276813	1edb4060
+bedrock/gpt-terra-latest	9a276813	1edb4060
+bedrock/grok-latest	9f8e939c	1edb4060
 bedrock/guardrails	97e18daf	f20e29e6
 bedrock/invoke/anthropic.claude-3-5-sonnet-20240620-v1:0	7af22a68	1edb4060
+bedrock/kimi-latest	97e18daf	f20e29e6
 bedrock/moonshotai.kimi-k2-thinking	97e18daf	f20e29e6
 bedrock/moonshotai.kimi-k2.5	97e18daf	f20e29e6
 bedrock/sa-east-1/deepseek.v3.2	e7f5c7af	1edb4060
@@ -4361,6 +4440,9 @@ bedrock/us-gov-east-1/amazon.titan-embed-text-v2:0	97e18daf	f20e29e6
 bedrock/us-gov-east-1/amazon.titan-text-express-v1	97e18daf	f20e29e6
 bedrock/us-gov-east-1/amazon.titan-text-lite-v1	97e18daf	f20e29e6
 bedrock/us-gov-east-1/amazon.titan-text-premier-v1:0	97e18daf	f20e29e6
+bedrock/us-gov-east-1/anthropic.claude-3-5-sonnet-20240620-v1:0	7af22a68	1edb4060
+bedrock/us-gov-east-1/anthropic.claude-3-7-sonnet-20250219-v1:0	7af22a68	1edb4060
+bedrock/us-gov-east-1/anthropic.claude-3-haiku-20240307-v1:0	7af22a68	1edb4060
 bedrock/us-gov-east-1/anthropic.claude-fable-5-1	7d8e3822	cbb882e7
 bedrock/us-gov-east-1/anthropic.claude-haiku-4-5-20251001-v1:0	7af22a68	1edb4060
 bedrock/us-gov-east-1/anthropic.claude-haiku-5-5	7af22a68	1edb4060
@@ -4373,6 +4455,7 @@ bedrock/us-gov-east-1/anthropic.claude-sonnet-5-5	7d8e3822	cbb882e7
 bedrock/us-gov-east-1/claude-sonnet-4-5-20250929-v1:0	7af22a68	1edb4060
 bedrock/us-gov-east-1/meta.llama3-70b-instruct-v1:0	97e18daf	f20e29e6
 bedrock/us-gov-east-1/meta.llama3-8b-instruct-v1:0	97e18daf	f20e29e6
+bedrock/us-gov-east-1/moonshotai.kimi-k3	97e18daf	f20e29e6
 bedrock/us-gov-east-1/nvidia.nemotron-nano-12b-v2	97e18daf	f20e29e6
 bedrock/us-gov-east-1/nvidia.nemotron-nano-3-30b	97e18daf	f20e29e6
 bedrock/us-gov-east-1/nvidia.nemotron-nano-9b-v2	97e18daf	f20e29e6
@@ -4388,6 +4471,9 @@ bedrock/us-gov-west-1/amazon.titan-embed-text-v2:0	97e18daf	f20e29e6
 bedrock/us-gov-west-1/amazon.titan-text-express-v1	97e18daf	f20e29e6
 bedrock/us-gov-west-1/amazon.titan-text-lite-v1	97e18daf	f20e29e6
 bedrock/us-gov-west-1/amazon.titan-text-premier-v1:0	97e18daf	f20e29e6
+bedrock/us-gov-west-1/anthropic.claude-3-5-sonnet-20240620-v1:0	7af22a68	1edb4060
+bedrock/us-gov-west-1/anthropic.claude-3-7-sonnet-20250219-v1:0	7af22a68	1edb4060
+bedrock/us-gov-west-1/anthropic.claude-3-haiku-20240307-v1:0	7af22a68	1edb4060
 bedrock/us-gov-west-1/anthropic.claude-fable-5-1	7d8e3822	cbb882e7
 bedrock/us-gov-west-1/anthropic.claude-haiku-4-5-20251001-v1:0	7af22a68	1edb4060
 bedrock/us-gov-west-1/anthropic.claude-haiku-5-5	7af22a68	1edb4060
@@ -4400,6 +4486,7 @@ bedrock/us-gov-west-1/anthropic.claude-sonnet-5-5	7d8e3822	cbb882e7
 bedrock/us-gov-west-1/claude-sonnet-4-5-20250929-v1:0	7af22a68	1edb4060
 bedrock/us-gov-west-1/meta.llama3-70b-instruct-v1:0	97e18daf	f20e29e6
 bedrock/us-gov-west-1/meta.llama3-8b-instruct-v1:0	97e18daf	f20e29e6
+bedrock/us-gov-west-1/moonshotai.kimi-k3	97e18daf	f20e29e6
 bedrock/us-gov-west-1/nvidia.nemotron-nano-12b-v2	97e18daf	f20e29e6
 bedrock/us-gov-west-1/nvidia.nemotron-nano-3-30b	97e18daf	f20e29e6
 bedrock/us-gov-west-1/nvidia.nemotron-nano-9b-v2	97e18daf	f20e29e6
@@ -4432,10 +4519,18 @@ bedrock_mantle/anthropic.claude-haiku-4-5	7af22a68	1edb4060
 bedrock_mantle/anthropic.claude-haiku-5-5	7af22a68	1edb4060
 bedrock_mantle/anthropic.claude-opus-5-5	7d8e3822	cbb882e7
 bedrock_mantle/anthropic.claude-sonnet-5-5	7d8e3822	cbb882e7
+bedrock_mantle/claude-haiku-latest	7af22a68	1edb4060
+bedrock_mantle/claude-opus-latest	7af22a68	1edb4060
+bedrock_mantle/claude-sonnet-latest	7af22a68	1edb4060
 bedrock_mantle/deepseek.v3.1	e7f5c7af	1edb4060
 bedrock_mantle/google.gemma-4-26b-a4b	97e18daf	f20e29e6
 bedrock_mantle/google.gemma-4-31b	97e18daf	f20e29e6
 bedrock_mantle/google.gemma-4-e2b	97e18daf	f20e29e6
+bedrock_mantle/gpt-astra-latest	9a276813	1edb4060
+bedrock_mantle/gpt-luna-latest	9a276813	1edb4060
+bedrock_mantle/gpt-sol-latest	9a276813	1edb4060
+bedrock_mantle/gpt-terra-latest	9a276813	1edb4060
+bedrock_mantle/grok-latest	9f8e939c	1edb4060
 bedrock_mantle/moonshotai.kimi-k2-thinking	97e18daf	f20e29e6
 bedrock_mantle/openai.gpt-5.4	7242c71e	6c82226f
 bedrock_mantle/openai.gpt-5.5	7242c71e	6c82226f
@@ -4447,6 +4542,7 @@ bedrock_mantle/openai.gpt-6-astra	5a3dba94	06bb3dc6
 bedrock_mantle/openai.gpt-6-luna	5a3dba94	06bb3dc6
 bedrock_mantle/openai.gpt-6-sol	5a3dba94	06bb3dc6
 bedrock_mantle/openai.gpt-6.1-sol	5a3dba94	06bb3dc6
+bedrock_mantle/openai.gpt-6.1-terra	5a3dba94	06bb3dc6
 bedrock_mantle/openai.gpt-daybreak-blue-5.6-sol	9a276813	1edb4060
 bedrock_mantle/openai.gpt-oss-120b	9a276813	1edb4060
 bedrock_mantle/openai.gpt-oss-20b	9a276813	1edb4060
@@ -4458,16 +4554,25 @@ bedrock_mantle/qwen.qwen3-coder-30b-a3b-instruct	94a111ce	48429573
 bedrock_mantle/qwen.qwen3-coder-480b-a35b-instruct	94a111ce	48429573
 bedrock_mantle/qwen.qwen3-next-80b-a3b-instruct	94a111ce	48429573
 bedrock_mantle/qwen.qwen3-vl-235b-a22b-instruct	94a111ce	48429573
+bedrock_mantle/us-gov-east-1/nvidia.nemotron-nano-12b-v2	97e18daf	f20e29e6
+bedrock_mantle/us-gov-east-1/nvidia.nemotron-nano-3-30b	97e18daf	f20e29e6
+bedrock_mantle/us-gov-east-1/nvidia.nemotron-nano-9b-v2	97e18daf	f20e29e6
+bedrock_mantle/us-gov-east-1/nvidia.nemotron-super-3-120b	97e18daf	f20e29e6
 bedrock_mantle/us-gov-east-1/openai.gpt-5.4	7242c71e	6c82226f
 bedrock_mantle/us-gov-east-1/openai.gpt-oss-120b	9a276813	1edb4060
 bedrock_mantle/us-gov-east-1/openai.gpt-oss-20b	9a276813	1edb4060
 bedrock_mantle/us-gov-east-1/xai.grok-4.6	8a7ba322	29b7b224
+bedrock_mantle/us-gov-east-1/xai.grok-4.7	8a7ba322	29b7b224
 bedrock_mantle/us-gov-west-1/anthropic.claude-haiku-5-5	7af22a68	1edb4060
 bedrock_mantle/us-gov-west-1/anthropic.claude-opus-5-5	7d8e3822	cbb882e7
 bedrock_mantle/us-gov-west-1/anthropic.claude-sonnet-5-5	7d8e3822	cbb882e7
 bedrock_mantle/us-gov-west-1/google.gemma-4-26b-a4b	97e18daf	f20e29e6
 bedrock_mantle/us-gov-west-1/google.gemma-4-31b	97e18daf	f20e29e6
 bedrock_mantle/us-gov-west-1/google.gemma-4-e2b	97e18daf	f20e29e6
+bedrock_mantle/us-gov-west-1/nvidia.nemotron-nano-12b-v2	97e18daf	f20e29e6
+bedrock_mantle/us-gov-west-1/nvidia.nemotron-nano-3-30b	97e18daf	f20e29e6
+bedrock_mantle/us-gov-west-1/nvidia.nemotron-nano-9b-v2	97e18daf	f20e29e6
+bedrock_mantle/us-gov-west-1/nvidia.nemotron-super-3-120b	97e18daf	f20e29e6
 bedrock_mantle/us-gov-west-1/openai.gpt-5.4	7242c71e	6c82226f
 bedrock_mantle/us-gov-west-1/openai.gpt-5.6-luna	7242c71e	6c82226f
 bedrock_mantle/us-gov-west-1/openai.gpt-5.6-terra	7242c71e	6c82226f
@@ -4475,11 +4580,16 @@ bedrock_mantle/us-gov-west-1/openai.gpt-oss-120b	9a276813	1edb4060
 bedrock_mantle/us-gov-west-1/openai.gpt-oss-20b	9a276813	1edb4060
 bedrock_mantle/us-gov-west-1/xai.grok-4.3	8a7ba322	29b7b224
 bedrock_mantle/us-gov-west-1/xai.grok-4.6	8a7ba322	29b7b224
+bedrock_mantle/us-gov-west-1/xai.grok-4.7	8a7ba322	29b7b224
 bedrock_mantle/xai.grok-4.3	8a7ba322	29b7b224
 bedrock_mantle/xai.grok-4.6	8a7ba322	29b7b224
+bedrock_mantle/xai.grok-4.7	8a7ba322	29b7b224
 bespoke/bespokelabs/Bespoke-Nimble-9B	97e18daf	f20e29e6
 bespoke/nimble	97e18daf	f20e29e6
 bespoke/nimble-latest	97e18daf	f20e29e6
+bigmodel/glm-5.3	97e18daf	f20e29e6
+bigmodel/glm-5.3-flash	97e18daf	f20e29e6
+bigmodel/glm-5.3-flashx	97e18daf	f20e29e6
 bing_grounding/search	97e18daf	f20e29e6
 black_forest_labs/flux-dev	97e18daf	f20e29e6
 black_forest_labs/flux-kontext-max	97e18daf	f20e29e6
@@ -4492,8 +4602,9 @@ black_forest_labs/flux-pro-1.1-ultra	97e18daf	f20e29e6
 c4ai-aya-expanse-32b	97e18daf	11f00057
 cerebras/gemma-4-31b	97e18daf	f20e29e6
 cerebras/gpt-oss-120b	9a276813	1edb4060
+cerebras/llama-3.1-70b	97e18daf	f20e29e6
+cerebras/llama-3.1-8b	97e18daf	f20e29e6
 cerebras/llama-3.3-70b	97e18daf	f20e29e6
-cerebras/llama3.1-70b	97e18daf	f20e29e6
 cerebras/llama3.1-8b	97e18daf	f20e29e6
 cerebras/qwen-3-32b	12053068	1edb4060
 cerebras/qwen-3.8-27b	12053068	1edb4060
@@ -4516,9 +4627,12 @@ chatgpt/gpt-5.6-luna	7242c71e	56aa525f
 chatgpt/gpt-5.6-sol	7242c71e	56aa525f
 chatgpt/gpt-5.6-terra	7242c71e	56aa525f
 chatgpt/gpt-6-astra	5a3dba94	ddcbad0a
+chatgpt/gpt-6-astra-law	5a3dba94	ddcbad0a
 chatgpt/gpt-6-luna	5a3dba94	ddcbad0a
+chatgpt/gpt-6-rosalind	5a3dba94	ddcbad0a
 chatgpt/gpt-6-sol	5a3dba94	ddcbad0a
 chatgpt/gpt-6.1-sol	5a3dba94	ddcbad0a
+chatgpt/gpt-6.1-terra	5a3dba94	ddcbad0a
 chatgpt/gpt-rosalind-discovery	9a276813	1edb4060
 claude-3-5-haiku-20241022	7af22a68	bda9263a
 claude-3-5-haiku-latest	7af22a68	bda9263a
@@ -4533,10 +4647,12 @@ claude-3-opus-20240229	7af22a68	bda9263a
 claude-fable-5	7d8e3822	b1731b06
 claude-fable-5-1	7d8e3822	46fba062
 claude-fable-5.1	7d8e3822	46fba062
+claude-fable-latest	7af22a68	bda9263a
 claude-haiku-4-5	7af22a68	bda9263a
 claude-haiku-4-5-20251001	7af22a68	bda9263a
 claude-haiku-5	7af22a68	bda9263a
 claude-haiku-5-5	7af22a68	bda9263a
+claude-haiku-latest	7af22a68	bda9263a
 claude-mythos-5	7d8e3822	b1731b06
 claude-mythos-5-1	7d8e3822	46fba062
 claude-mythos-preview	7af22a68	bda9263a
@@ -4554,6 +4670,7 @@ claude-opus-5	cb2d68dd	0c062668
 claude-opus-5-5	7d8e3822	46fba062
 claude-opus-5-5-20260901	7d8e3822	46fba062
 claude-opus-5.5	7d8e3822	46fba062
+claude-opus-latest	7af22a68	bda9263a
 claude-sonnet-4-0	7af22a68	bda9263a
 claude-sonnet-4-20250514	7af22a68	bda9263a
 claude-sonnet-4-5	7af22a68	bda9263a
@@ -4563,7 +4680,19 @@ claude-sonnet-4-6	aeebecb0	6543a34c
 claude-sonnet-5	cb2d68dd	0c062668
 claude-sonnet-5-5	7d8e3822	46fba062
 claude-sonnet-5.5	7d8e3822	46fba062
+claude-sonnet-latest	7af22a68	bda9263a
+clf_ai_gateway/deepseek-v4-flash	7cd6eaf6	1b5a78cb
+clf_ai_gateway/deepseek-v4-pro	7cd6eaf6	1b5a78cb
+clf_ai_gateway/deepseek-v4.1-flash	7cd6eaf6	1b5a78cb
+clf_ai_gateway/glm-4.7-flash	97e18daf	f20e29e6
+clf_ai_gateway/glm-5.2	97e18daf	f20e29e6
+clf_ai_gateway/glm-5.3	97e18daf	f20e29e6
+clf_ai_gateway/glm-5.3-flash	97e18daf	f20e29e6
+clf_ai_gateway/kimi-k2.6	97e18daf	f20e29e6
+clf_ai_gateway/kimi-k2.7-code	97e18daf	f20e29e6
+clf_ai_gateway/qwen3.8-27b	70282732	e543bd67
 cloudflare/@cf/aisingapore/gemma-sea-lion-v4-27b-it	97e18daf	f20e29e6
+cloudflare/@cf/cloudflare/clairic	97e18daf	f20e29e6
 cloudflare/@cf/cloudflare/clef	97e18daf	f20e29e6
 cloudflare/@cf/cloudflare/clef-flash	97e18daf	f20e29e6
 cloudflare/@cf/cloudflare/clef-omni	97e18daf	f20e29e6
@@ -4598,6 +4727,7 @@ cloudflare/@cf/qwen/qwq-32b	12053068	1edb4060
 cloudflare/@cf/zai-org/glm-4.7-flash	97e18daf	f20e29e6
 cloudflare/@cf/zai-org/glm-5.2	97e18daf	f20e29e6
 cloudflare/@hf/thebloke/codellama-7b-instruct-awq	97e18daf	f20e29e6
+cloudflare/clairic	97e18daf	f20e29e6
 cloudflare/clef	97e18daf	f20e29e6
 cloudflare/clef-flash	97e18daf	f20e29e6
 cloudflare/clef-omni	97e18daf	f20e29e6
@@ -4655,14 +4785,20 @@ dashscope/happyhorse-1.1-i2v	97e18daf	f20e29e6
 dashscope/happyhorse-1.1-r2v	97e18daf	f20e29e6
 dashscope/happyhorse-1.1-t2v	97e18daf	f20e29e6
 dashscope/kimi-k2.7-code	97e18daf	f20e29e6
+dashscope/qwen-audio-3.0-tts-flash	12053068	1edb4060
+dashscope/qwen-audio-3.0-tts-plus	12053068	1edb4060
+dashscope/qwen-audio-3.1-tts-flash	12053068	1edb4060
+dashscope/qwen-audio-3.1-tts-plus	12053068	1edb4060
 dashscope/qwen-coder	12053068	1edb4060
 dashscope/qwen-flash	12053068	1edb4060
 dashscope/qwen-flash-2025-07-28	12053068	1edb4060
+dashscope/qwen-flash-latest	12053068	1edb4060
 dashscope/qwen-image-2.0	12053068	1edb4060
 dashscope/qwen-image-2.0-pro	12053068	1edb4060
 dashscope/qwen-image-3.0	12053068	1edb4060
 dashscope/qwen-image-3.0-pro	12053068	1edb4060
 dashscope/qwen-max	12053068	1edb4060
+dashscope/qwen-max-latest	12053068	1edb4060
 dashscope/qwen-plus	12053068	1edb4060
 dashscope/qwen-plus-2025-01-25	12053068	1edb4060
 dashscope/qwen-plus-2025-04-28	12053068	1edb4060
@@ -4684,6 +4820,7 @@ dashscope/qwen3-max-2026-01-23	94a111ce	48429573
 dashscope/qwen3-max-preview	94a111ce	48429573
 dashscope/qwen3-next-80b-a3b-instruct	94a111ce	48429573
 dashscope/qwen3-next-80b-a3b-thinking	5242c02e	5feb3e82
+dashscope/qwen3-tts-flash	94a111ce	48429573
 dashscope/qwen3-vl-235b-a22b-instruct	94a111ce	48429573
 dashscope/qwen3-vl-235b-a22b-thinking	5242c02e	5feb3e82
 dashscope/qwen3-vl-32b-instruct	94a111ce	48429573
@@ -4702,10 +4839,15 @@ dashscope/wan2.7-t2v	97e18daf	f20e29e6
 dashscope/wan3.0-video	97e18daf	f20e29e6
 dashscope/wan3.0-video-prime	97e18daf	f20e29e6
 databricks/ai_decide	97e18daf	f20e29e6
+databricks/claude-fable-latest	7af22a68	1edb4060
+databricks/claude-haiku-latest	7af22a68	1edb4060
+databricks/claude-opus-latest	7af22a68	1edb4060
+databricks/claude-sonnet-latest	7af22a68	1edb4060
 databricks/databricks-bge-large-en	97e18daf	f20e29e6
 databricks/databricks-claude-fable-5	7d8e3822	2c52eb91
 databricks/databricks-claude-fable-5-1	7d8e3822	cbb882e7
 databricks/databricks-claude-haiku-4-5	7af22a68	1edb4060
+databricks/databricks-claude-haiku-5-5	7af22a68	1edb4060
 databricks/databricks-claude-opus-4	7af22a68	1edb4060
 databricks/databricks-claude-opus-4-1	7af22a68	1edb4060
 databricks/databricks-claude-opus-4-5	890864de	ccbf4d97
@@ -4719,12 +4861,17 @@ databricks/databricks-claude-sonnet-4-1	7af22a68	1edb4060
 databricks/databricks-claude-sonnet-4-5	7af22a68	1edb4060
 databricks/databricks-claude-sonnet-4-6	aeebecb0	dd588f9f
 databricks/databricks-claude-sonnet-5	cb2d68dd	a3294578
+databricks/databricks-claude-sonnet-5-5	7d8e3822	cbb882e7
+databricks/databricks-deepseek-v4-1-flash	7cd6eaf6	1b5a78cb
+databricks/databricks-deepseek-v4-1-flash-1017	7cd6eaf6	1b5a78cb
 databricks/databricks-deepseek-v4-flash-0731	7cd6eaf6	1b5a78cb
 databricks/databricks-deepseek-v4-pro-0813	7cd6eaf6	1b5a78cb
 databricks/databricks-gemini-2-5-flash	7af22a68	1edb4060
+databricks/databricks-gemini-2-5-flash-lite	7af22a68	1edb4060
 databricks/databricks-gemini-2-5-pro	7af22a68	1edb4060
 databricks/databricks-gemini-3-1-flash-image	7af22a68	1edb4060
 databricks/databricks-gemini-3-1-flash-lite	7af22a68	1edb4060
+databricks/databricks-gemini-3-1-flash-lite-image	7af22a68	1edb4060
 databricks/databricks-gemini-3-1-pro	7af22a68	1edb4060
 databricks/databricks-gemini-3-5-flash	7af22a68	1edb4060
 databricks/databricks-gemini-3-5-flash-lite	7af22a68	1edb4060
@@ -4734,6 +4881,7 @@ databricks/databricks-gemini-3-8-flash	7af22a68	1edb4060
 databricks/databricks-gemini-3-flash	7af22a68	1edb4060
 databricks/databricks-gemini-3-pro	7af22a68	1edb4060
 databricks/databricks-gemini-3-pro-image	7af22a68	1edb4060
+databricks/databricks-gemini-4-argon	7af22a68	1edb4060
 databricks/databricks-gemma-3-12b	97e18daf	f20e29e6
 databricks/databricks-glm-5-2	97e18daf	f20e29e6
 databricks/databricks-glm-5-3	97e18daf	f20e29e6
@@ -4745,6 +4893,7 @@ databricks/databricks-gpt-5-3-codex	48046c0e	c9071d93
 databricks/databricks-gpt-5-4	48046c0e	c9071d93
 databricks/databricks-gpt-5-4-mini	48046c0e	c9071d93
 databricks/databricks-gpt-5-4-nano	48046c0e	c9071d93
+databricks/databricks-gpt-5-4-pro	48046c0e	c9071d93
 databricks/databricks-gpt-5-5	48046c0e	c9071d93
 databricks/databricks-gpt-5-5-pro	48046c0e	c9071d93
 databricks/databricks-gpt-5-6-luna	48046c0e	c9071d93
@@ -4752,12 +4901,24 @@ databricks/databricks-gpt-5-6-sol	48046c0e	c9071d93
 databricks/databricks-gpt-5-6-terra	48046c0e	c9071d93
 databricks/databricks-gpt-5-mini	48046c0e	c9071d93
 databricks/databricks-gpt-5-nano	48046c0e	c9071d93
+databricks/databricks-gpt-6-1-sol	5a3dba94	06bb3dc6
+databricks/databricks-gpt-6-1-terra	5a3dba94	06bb3dc6
+databricks/databricks-gpt-6-astra	5a3dba94	06bb3dc6
+databricks/databricks-gpt-6-luna	5a3dba94	06bb3dc6
+databricks/databricks-gpt-6-sol	5a3dba94	06bb3dc6
+databricks/databricks-gpt-image-1	9a276813	1edb4060
+databricks/databricks-gpt-image-1-5	9a276813	1edb4060
+databricks/databricks-gpt-image-1-mini	9a276813	1edb4060
+databricks/databricks-gpt-image-2	9a276813	1edb4060
 databricks/databricks-gpt-oss-120b	9a276813	1edb4060
 databricks/databricks-gpt-oss-20b	9a276813	1edb4060
 databricks/databricks-grok-4-6	8a7ba322	29b7b224
+databricks/databricks-grok-4-7	8a7ba322	29b7b224
 databricks/databricks-gte-large-en	97e18daf	f20e29e6
 databricks/databricks-inkling	97e18daf	f20e29e6
+databricks/databricks-kimi-k2-7	97e18daf	f20e29e6
 databricks/databricks-kimi-k3	97e18daf	f20e29e6
+databricks/databricks-kimi-k3-1-pro	97e18daf	f20e29e6
 databricks/databricks-llama-4-maverick	97e18daf	f20e29e6
 databricks/databricks-meta-llama-3-1-8b-instruct	97e18daf	f20e29e6
 databricks/databricks-meta-llama-3-3-70b-instruct	97e18daf	f20e29e6
@@ -4765,6 +4926,16 @@ databricks/databricks-openjev-qwen35-4b	94a111ce	48429573
 databricks/databricks-qwen3-embedding-0-6b	94a111ce	48429573
 databricks/databricks-qwen3-next-80b-a3b-instruct	94a111ce	48429573
 databricks/databricks-qwen35-122b-a10b	94a111ce	48429573
+databricks/databricks-typesafeai-jev-1-14-0	97e18daf	f20e29e6
+databricks/glm-flash-latest	97e18daf	f20e29e6
+databricks/glm-latest	97e18daf	f20e29e6
+databricks/gpt-astra-latest	9a276813	1edb4060
+databricks/gpt-luna-latest	9a276813	1edb4060
+databricks/gpt-mini-latest	9a276813	1edb4060
+databricks/gpt-sol-latest	9a276813	1edb4060
+databricks/gpt-terra-latest	9a276813	1edb4060
+databricks/grok-latest	9f8e939c	1edb4060
+databricks/kimi-latest	97e18daf	f20e29e6
 databricks/system.ai.deepseek-v4-flash-0731	7cd6eaf6	3e88aa0e
 databricks/system.ai.kimi-k3	97e18daf	f20e29e6
 dataforseo/search	97e18daf	f20e29e6
@@ -4772,6 +4943,8 @@ davinci-002	97e18daf	11f00057
 daybreak-blue-latest	97e18daf	11f00057
 daybreak-red-latest	97e18daf	11f00057
 deep-research-pro-preview-12-2025	97e18daf	11f00057
+deepgram/aura	97e18daf	f20e29e6
+deepgram/aura-2	97e18daf	f20e29e6
 deepgram/base	97e18daf	f20e29e6
 deepgram/base-conversationalai	97e18daf	f20e29e6
 deepgram/base-finance	97e18daf	f20e29e6
@@ -4806,6 +4979,7 @@ deepgram/streaming/detect_entities	97e18daf	f20e29e6
 deepgram/streaming/diarize	97e18daf	f20e29e6
 deepgram/streaming/keyterm	97e18daf	f20e29e6
 deepgram/streaming/nova-3	97e18daf	f20e29e6
+deepgram/streaming/nova-3-medical	97e18daf	f20e29e6
 deepgram/streaming/nova-3-multilingual	97e18daf	f20e29e6
 deepgram/streaming/redact	97e18daf	f20e29e6
 deepgram/whisper	97e18daf	f20e29e6
@@ -4967,6 +5141,8 @@ deepseek.v3.2	e7f5c7af	bda9263a
 deepseek/deepseek-chat	7cd6eaf6	f830728e
 deepseek/deepseek-coder	e7f5c7af	1edb4060
 deepseek/deepseek-flash	7cd6eaf6	1b5a78cb
+deepseek/deepseek-flash-latest	7cd6eaf6	1b5a78cb
+deepseek/deepseek-pro-latest	e7f5c7af	1edb4060
 deepseek/deepseek-r1	7cd6eaf6	f830728e
 deepseek/deepseek-reasoner	7cd6eaf6	f830728e
 deepseek/deepseek-v3	e7f5c7af	1edb4060
@@ -4974,6 +5150,7 @@ deepseek/deepseek-v3.2	e7f5c7af	1edb4060
 deepseek/deepseek-v4-flash	7cd6eaf6	1b5a78cb
 deepseek/deepseek-v4-flash-vision-exp	7cd6eaf6	1b5a78cb
 deepseek/deepseek-v4-pro	7cd6eaf6	1b5a78cb
+deepseek/search	e7f5c7af	1edb4060
 dolphin	97e18daf	11f00057
 doubao-embedding	97e18daf	11f00057
 doubao-embedding-large	97e18daf	11f00057
@@ -4981,8 +5158,15 @@ doubao-embedding-large-text-240915	97e18daf	11f00057
 doubao-embedding-large-text-250515	97e18daf	11f00057
 doubao-embedding-text-240715	97e18daf	11f00057
 duckduckgo/search	97e18daf	f20e29e6
+elevenlabs/eleven_flash_v2	97e18daf	f20e29e6
+elevenlabs/eleven_flash_v2_5	97e18daf	f20e29e6
 elevenlabs/eleven_multilingual_v2	97e18daf	f20e29e6
+elevenlabs/eleven_turbo_v2	97e18daf	f20e29e6
+elevenlabs/eleven_turbo_v2_5	97e18daf	f20e29e6
 elevenlabs/eleven_v3	97e18daf	f20e29e6
+elevenlabs/eleven_v3_conversational	97e18daf	f20e29e6
+elevenlabs/eleven_v4	97e18daf	f20e29e6
+elevenlabs/eleven_v4_turbo	97e18daf	f20e29e6
 elevenlabs/scribe_v1	97e18daf	f20e29e6
 elevenlabs/scribe_v1_experimental	97e18daf	f20e29e6
 elevenlabs/scribe_v2	97e18daf	f20e29e6
@@ -4990,6 +5174,102 @@ embed-english-light-v3.0	97e18daf	11f00057
 embed-english-v3.0	97e18daf	11f00057
 embed-multilingual-light-v3.0	97e18daf	11f00057
 embed-multilingual-v3.0	97e18daf	11f00057
+empiriolabs/aplomb-1	97e18daf	f20e29e6
+empiriolabs/deepseek-v4-1-flash-1017	7cd6eaf6	1b5a78cb
+empiriolabs/deepseek-v4-flash-0731	7cd6eaf6	1b5a78cb
+empiriolabs/deepseek-v4-flash-0731:variant1	7cd6eaf6	1b5a78cb
+empiriolabs/deepseek-v4-pro	7cd6eaf6	1b5a78cb
+empiriolabs/deepseek-v4-pro-0813	7cd6eaf6	1b5a78cb
+empiriolabs/deepseek-v4-pro:variant1	7cd6eaf6	1b5a78cb
+empiriolabs/deepseek-v4-pro:variant2	7cd6eaf6	1b5a78cb
+empiriolabs/deepseek-v4-pro:variant3	7cd6eaf6	1b5a78cb
+empiriolabs/fugu-max	97e18daf	f20e29e6
+empiriolabs/fugu-ultra-v1-0	97e18daf	f20e29e6
+empiriolabs/fugu-ultra-v1-1	97e18daf	f20e29e6
+empiriolabs/fugu-ultra-v2-0	97e18daf	f20e29e6
+empiriolabs/gemma-4-26b-a4b	97e18daf	f20e29e6
+empiriolabs/glm-4-6v-flashx	97e18daf	f20e29e6
+empiriolabs/glm-4-7-flashx	97e18daf	f20e29e6
+empiriolabs/glm-5-1	97e18daf	f20e29e6
+empiriolabs/glm-5-2	97e18daf	f20e29e6
+empiriolabs/glm-5-2:variant1	97e18daf	f20e29e6
+empiriolabs/glm-5-2:variant2	97e18daf	f20e29e6
+empiriolabs/glm-5-3	97e18daf	f20e29e6
+empiriolabs/glm-5-3-flash	97e18daf	f20e29e6
+empiriolabs/kimi-k2-6	97e18daf	f20e29e6
+empiriolabs/kimi-k2-7-code	97e18daf	f20e29e6
+empiriolabs/kimi-k2-7-code-highspeed	97e18daf	f20e29e6
+empiriolabs/kimi-k2-7-code:variant1	97e18daf	f20e29e6
+empiriolabs/kimi-k3	97e18daf	f20e29e6
+empiriolabs/kimi-k3-1-pro	97e18daf	f20e29e6
+empiriolabs/mimo-v2-6-flash	97e18daf	f20e29e6
+empiriolabs/mimo-v2-6-pro	97e18daf	f20e29e6
+empiriolabs/mimo-v2-6-pro-ultraspeed	97e18daf	f20e29e6
+empiriolabs/minimax-m2-7	97e18daf	f20e29e6
+empiriolabs/minimax-m2-7-highspeed	97e18daf	f20e29e6
+empiriolabs/minimax-m3	97e18daf	f20e29e6
+empiriolabs/minimax-m3-1-flash	97e18daf	f20e29e6
+empiriolabs/minimax-m3:priority	97e18daf	f20e29e6
+empiriolabs/mistral-small-4	97e18daf	f20e29e6
+empiriolabs/muse-glimmer-30b	97e18daf	f20e29e6
+empiriolabs/muse-spark-1-1	97e18daf	f20e29e6
+empiriolabs/muse-spark-1-2	97e18daf	f20e29e6
+empiriolabs/muse-spark-1-3	97e18daf	f20e29e6
+empiriolabs/nova-lite-1-0	97e18daf	f20e29e6
+empiriolabs/nova-lite-2	97e18daf	f20e29e6
+empiriolabs/nova-micro-1-0	97e18daf	f20e29e6
+empiriolabs/nova-pro-1-0	97e18daf	f20e29e6
+empiriolabs/perplexity-advanced-deep-research	97e18daf	f20e29e6
+empiriolabs/perplexity-deep-research	97e18daf	f20e29e6
+empiriolabs/perplexity-pro-search	97e18daf	f20e29e6
+empiriolabs/perplexity-sonar	97e18daf	f20e29e6
+empiriolabs/perplexity-sonar-pro	97e18daf	f20e29e6
+empiriolabs/perplexity-sonar-reasoning-pro	97e18daf	f20e29e6
+empiriolabs/qwen3-5-122b-a10b	94a111ce	48429573
+empiriolabs/qwen3-5-27b	94a111ce	48429573
+empiriolabs/qwen3-5-35b-a3b	94a111ce	48429573
+empiriolabs/qwen3-5-397b-a17b	94a111ce	48429573
+empiriolabs/qwen3-5-4b	94a111ce	48429573
+empiriolabs/qwen3-5-9b	94a111ce	48429573
+empiriolabs/qwen3-5-flash	94a111ce	48429573
+empiriolabs/qwen3-5-flash:variant1	94a111ce	48429573
+empiriolabs/qwen3-5-omni-flash	94a111ce	48429573
+empiriolabs/qwen3-5-omni-plus	94a111ce	48429573
+empiriolabs/qwen3-5-plus	94a111ce	48429573
+empiriolabs/qwen3-5-plus:variant1	94a111ce	48429573
+empiriolabs/qwen3-6-27b	94a111ce	48429573
+empiriolabs/qwen3-6-35b-a3b	94a111ce	48429573
+empiriolabs/qwen3-6-flash	94a111ce	48429573
+empiriolabs/qwen3-6-flash:variant1	94a111ce	48429573
+empiriolabs/qwen3-6-plus	94a111ce	48429573
+empiriolabs/qwen3-6-plus:variant1	94a111ce	48429573
+empiriolabs/qwen3-7-flash	94a111ce	48429573
+empiriolabs/qwen3-7-flash:variant1	94a111ce	48429573
+empiriolabs/qwen3-7-max	94a111ce	48429573
+empiriolabs/qwen3-7-max:variant1	94a111ce	48429573
+empiriolabs/qwen3-7-plus	94a111ce	48429573
+empiriolabs/qwen3-7-plus:variant1	94a111ce	48429573
+empiriolabs/qwen3-8-27b	94a111ce	48429573
+empiriolabs/qwen3-8-flash	94a111ce	48429573
+empiriolabs/qwen3-8-max	94a111ce	48429573
+empiriolabs/qwen3-8-max-0902	94a111ce	48429573
+empiriolabs/qwen3-8-max:variant1	94a111ce	48429573
+empiriolabs/qwen3-8-omni-flash	94a111ce	48429573
+empiriolabs/seed-2-0-code	97e18daf	f20e29e6
+empiriolabs/seed-2-0-lite	97e18daf	f20e29e6
+empiriolabs/seed-2-0-mini	97e18daf	f20e29e6
+empiriolabs/seed-2-0-pro	97e18daf	f20e29e6
+empiriolabs/seed-2-1-turbo	97e18daf	f20e29e6
+empiriolabs/skylark-embedding-vision	97e18daf	f20e29e6
+empiriolabs/step-3-5-flash	97e18daf	f20e29e6
+empiriolabs/step-3-5-flash-2603	97e18daf	f20e29e6
+empiriolabs/step-3-7-flash	97e18daf	f20e29e6
+empiriolabs/step-5-preview	97e18daf	f20e29e6
+empiriolabs/stepaudio-2-5-chat	97e18daf	f20e29e6
+empiriolabs/stepaudio-3-chat	97e18daf	f20e29e6
+empiriolabs/text-embedding-v4	97e18daf	f20e29e6
+empiriolabs/tongyi-embedding-vision-flash	97e18daf	f20e29e6
+empiriolabs/tongyi-embedding-vision-plus	97e18daf	f20e29e6
 eu.amazon.nova-2-lite-v1:0	97e18daf	f20e29e6
 eu.amazon.nova-2-pro-preview-20251202-v1:0	97e18daf	f20e29e6
 eu.amazon.nova-lite-v1:0	97e18daf	f20e29e6
@@ -5024,6 +5304,8 @@ eu.mistral.pixtral-large-2502-v1:0	97e18daf	f20e29e6
 eu.twelvelabs.marengo-embed-2-7-v1:0	97e18daf	f20e29e6
 eu.twelvelabs.marengo-embed-3-0-v1:0	97e18daf	f20e29e6
 eu.twelvelabs.pegasus-1-2-v1:0	97e18daf	f20e29e6
+eu_jev/eu-jeff-1.0.0	97e18daf	f20e29e6
+eu_jev/eu-jeff-latest	97e18daf	f20e29e6
 exa_ai/search	97e18daf	f20e29e6
 fal_ai/bria/text-to-image/3.2	97e18daf	f20e29e6
 fal_ai/bytedance/seedance-2.0/image-to-video	97e18daf	f20e29e6
@@ -5305,6 +5587,7 @@ fireworks_ai/accounts/fireworks/models/deepseek-v4-pro	7cd6eaf6	1b5a78cb
 fireworks_ai/accounts/fireworks/models/deepseek-v4-pro-0813	7cd6eaf6	1b5a78cb
 fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash	7cd6eaf6	f830728e
 fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017	7cd6eaf6	f830728e
+fireworks_ai/accounts/fireworks/models/deepseek-v4p1-flash-1017-us	7cd6eaf6	f830728e
 fireworks_ai/accounts/fireworks/models/devstral-small-2505	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/dobby-mini-unhinged-plus-llama-3-1-8b	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/dobby-unhinged-llama-3-3-70b-new	97e18daf	f20e29e6
@@ -5361,6 +5644,7 @@ fireworks_ai/accounts/fireworks/models/kimi-k2p5	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/kimi-k2p6	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/kimi-k2p7-code	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/kimi-k3	97e18daf	f20e29e6
+fireworks_ai/accounts/fireworks/models/kimi-k3p1-pro	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/llama-guard-2-8b	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/llama-guard-3-1b	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/llama-guard-3-8b	97e18daf	f20e29e6
@@ -5396,6 +5680,7 @@ fireworks_ai/accounts/fireworks/models/minimax-m2	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/minimax-m2p1	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/minimax-m2p7	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/minimax-m3	97e18daf	f20e29e6
+fireworks_ai/accounts/fireworks/models/minimax-m3p1-flash	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/ministral-3-14b-instruct-2512	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/ministral-3-3b-instruct-2512	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/ministral-3-8b-instruct-2512	97e18daf	f20e29e6
@@ -5515,6 +5800,7 @@ fireworks_ai/accounts/fireworks/models/qwen3p7-plus	94a111ce	48429573
 fireworks_ai/accounts/fireworks/models/qwen3p8-max	94a111ce	48429573
 fireworks_ai/accounts/fireworks/models/qwq-32b	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/rolm-ocr	97e18daf	f20e29e6
+fireworks_ai/accounts/fireworks/models/rune	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/snorkel-mistral-7b-pairrm-dpo	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/stable-diffusion-xl-1024-v1-0	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/stablecode-3b	97e18daf	f20e29e6
@@ -5524,6 +5810,7 @@ fireworks_ai/accounts/fireworks/models/starcoder2-15b	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/starcoder2-3b	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/starcoder2-7b	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/toppy-m-7b	97e18daf	f20e29e6
+fireworks_ai/accounts/fireworks/models/ultramarine-1-flash-us	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/yi-34b	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/yi-34b-200k-capybara	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/yi-34b-chat	97e18daf	f20e29e6
@@ -5532,6 +5819,9 @@ fireworks_ai/accounts/fireworks/models/yi-large	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/models/zephyr-7b-beta	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/auto	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/auto-instant	97e18daf	f20e29e6
+fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot	7cd6eaf6	f830728e
+fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast	7cd6eaf6	f830728e
+fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-spot	7cd6eaf6	f830728e
 fireworks_ai/accounts/fireworks/routers/deepseek-v4p1-flash-us	7cd6eaf6	f830728e
 fireworks_ai/accounts/fireworks/routers/firerouter	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/glm-5p1-fast	97e18daf	f20e29e6
@@ -5539,12 +5829,15 @@ fireworks_ai/accounts/fireworks/routers/glm-5p2-fast	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/glm-5p2-fast-us	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/glm-5p3-fast	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/glm-5p3-flash-us	97e18daf	f20e29e6
+fireworks_ai/accounts/fireworks/routers/glm-5p3-spot	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/glm-5p3-us	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/kimi-k2p6-fast	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/kimi-k2p7-code-fast	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/kimi-k3-fast	97e18daf	f20e29e6
+fireworks_ai/accounts/fireworks/routers/kimi-k3-spot	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/kimi-k3-us	97e18daf	f20e29e6
 fireworks_ai/accounts/fireworks/routers/rune	97e18daf	f20e29e6
+fireworks_ai/accounts/fireworks/routers/spot-deepseek-v4-flash	7cd6eaf6	1b5a78cb
 fireworks_ai/deepseek-v4-flash	7cd6eaf6	1b5a78cb
 fireworks_ai/deepseek-v4-flash-0731	7cd6eaf6	1b5a78cb
 fireworks_ai/deepseek-v4-flash-vision-exp	7cd6eaf6	1b5a78cb
@@ -5572,6 +5865,8 @@ fireworks_ai/kimi-k2p7-code-fast	97e18daf	f20e29e6
 fireworks_ai/kimi-k3	97e18daf	f20e29e6
 fireworks_ai/kimi-k3-fast	97e18daf	f20e29e6
 fireworks_ai/kimi-k3-us	97e18daf	f20e29e6
+fireworks_ai/kimi-latest	97e18daf	f20e29e6
+fireworks_ai/minimax-latest	97e18daf	f20e29e6
 fireworks_ai/minimax-m2p1	97e18daf	f20e29e6
 fireworks_ai/minimax-m3	97e18daf	f20e29e6
 fireworks_ai/muse-glimmer-30b	97e18daf	f20e29e6
@@ -5611,7 +5906,6 @@ gemini-1.5-pro	7af22a68	bda9263a
 gemini-1.5-pro-latest	7af22a68	bda9263a
 gemini-2.0-flash	7af22a68	bda9263a
 gemini-2.0-flash-001	7af22a68	bda9263a
-gemini-2.0-flash-exp-image-generation	7af22a68	bda9263a
 gemini-2.5-computer-use-preview-10-2025	7af22a68	bda9263a
 gemini-2.5-flash	8adf87b9	285026e6
 gemini-2.5-flash-image	7af22a68	bda9263a
@@ -5670,7 +5964,6 @@ gemini-robotics-er-2-preview	7af22a68	bda9263a
 gemini/deep-research-max-preview-04-2026	7af22a68	1edb4060
 gemini/deep-research-preview-04-2026	7af22a68	1edb4060
 gemini/deep-research-pro-preview-12-2025	7af22a68	1edb4060
-gemini/gemini-2.0-flash-exp-image-generation	7af22a68	1edb4060
 gemini/gemini-2.5-computer-use-preview-10-2025	7af22a68	1edb4060
 gemini/gemini-2.5-flash	8adf87b9	6df581a7
 gemini/gemini-2.5-flash-image	7af22a68	1edb4060
@@ -5718,6 +6011,7 @@ gemini/gemini-gemma-2-9b-it	7af22a68	1edb4060
 gemini/gemini-live-2.5-flash-preview-native-audio-09-2025	7af22a68	1edb4060
 gemini/gemini-nano-banana-2.1	7af22a68	1edb4060
 gemini/gemini-omni-1.1-flash	7af22a68	1edb4060
+gemini/gemini-omni-1.2-flash	7af22a68	1edb4060
 gemini/gemini-omni-flash-preview	7af22a68	1edb4060
 gemini/gemini-pro-latest	7af22a68	1edb4060
 gemini/gemini-robotics-er-2-preview	7af22a68	1edb4060
@@ -5749,15 +6043,19 @@ gigachat/GigaChat-2-Pro	97e18daf	f20e29e6
 gigachat/GigaEmbeddings-3B-2025-09	97e18daf	f20e29e6
 github_copilot/claude-fable-5	7d8e3822	2c52eb91
 github_copilot/claude-fable-5.1	7d8e3822	cbb882e7
+github_copilot/claude-fable-latest	7af22a68	1edb4060
 github_copilot/claude-haiku-4.5	7af22a68	1edb4060
 github_copilot/claude-haiku-5.5	7af22a68	1edb4060
+github_copilot/claude-haiku-latest	7af22a68	1edb4060
 github_copilot/claude-opus-4.8	7af22a68	1edb4060
 github_copilot/claude-opus-4.8-fast	7af22a68	1edb4060
 github_copilot/claude-opus-5	cb2d68dd	a3294578
 github_copilot/claude-opus-5.5	7d8e3822	cbb882e7
+github_copilot/claude-opus-latest	7af22a68	1edb4060
 github_copilot/claude-sonnet-4.6	7af22a68	1edb4060
 github_copilot/claude-sonnet-5	cb2d68dd	a3294578
 github_copilot/claude-sonnet-5.5	7d8e3822	cbb882e7
+github_copilot/claude-sonnet-latest	7af22a68	1edb4060
 github_copilot/gemini-3.7-flash	d0fa1e3c	29b7b224
 github_copilot/gemini-3.8-flash	d0fa1e3c	29b7b224
 github_copilot/gemini-4-argon	7af22a68	1edb4060
@@ -5788,10 +6086,17 @@ github_copilot/gpt-6-astra	5a3dba94	ddcbad0a
 github_copilot/gpt-6-luna	5a3dba94	ddcbad0a
 github_copilot/gpt-6-sol	5a3dba94	ddcbad0a
 github_copilot/gpt-6.1-sol	5a3dba94	ddcbad0a
+github_copilot/gpt-6.1-terra	5a3dba94	ddcbad0a
+github_copilot/gpt-astra-latest	9a276813	1edb4060
+github_copilot/gpt-luna-latest	9a276813	1edb4060
+github_copilot/gpt-sol-latest	9a276813	1edb4060
+github_copilot/gpt-terra-latest	9a276813	1edb4060
 github_copilot/grok-4.5	8a7ba322	29b7b224
 github_copilot/grok-4.6	8a7ba322	29b7b224
 github_copilot/grok-4.7	8a7ba322	29b7b224
+github_copilot/grok-latest	9f8e939c	1edb4060
 github_copilot/kimi-k3	97e18daf	f20e29e6
+github_copilot/kimi-latest	97e18daf	f20e29e6
 github_copilot/mai-code-1.1-flash	97e18daf	f20e29e6
 github_copilot/text-embedding-3-small	97e18daf	f20e29e6
 github_copilot/text-embedding-3-small-inference	97e18daf	f20e29e6
@@ -5817,6 +6122,7 @@ global.anthropic.claude-sonnet-5	cb2d68dd	0c062668
 global.anthropic.claude-sonnet-5-5	7d8e3822	46fba062
 global.cohere.embed-v4:0	97e18daf	f20e29e6
 global.moonshotai.kimi-k3	97e18daf	11f00057
+global.moonshotai.kimi-k3.1	97e18daf	11f00057
 global.openai.gpt-5.4	7242c71e	f06935c4
 global.openai.gpt-5.5	7242c71e	f06935c4
 global.openai.gpt-5.6-luna	7242c71e	f06935c4
@@ -5826,27 +6132,131 @@ global.openai.gpt-6-astra	5a3dba94	29f44933
 global.openai.gpt-6-luna	5a3dba94	29f44933
 global.openai.gpt-6-sol	5a3dba94	29f44933
 global.openai.gpt-6.1-sol	5a3dba94	29f44933
+global.openai.gpt-6.1-terra	5a3dba94	29f44933
 global.twelvelabs.pegasus-1-2-v1:0	97e18daf	f20e29e6
 global.twelvelabs.pegasus-1-5-v1:0	97e18daf	f20e29e6
 global.xai.grok-4.6	8a7ba322	0b2308d5
 global.xai.grok-4.7	8a7ba322	0b2308d5
 global.zai.glm-5.3	97e18daf	11f00057
+gmi/MiniMaxAI/MiniMax-M2	9f8e939c	1edb4060
 gmi/MiniMaxAI/MiniMax-M2.1	9f8e939c	1edb4060
+gmi/MiniMaxAI/MiniMax-M2.5	9f8e939c	1edb4060
+gmi/MiniMaxAI/MiniMax-M2.7	9f8e939c	1edb4060
+gmi/MiniMaxAI/MiniMax-M3	9f8e939c	1edb4060
+gmi/MiniMaxAI/MiniMax-M3.1-Flash	9f8e939c	1edb4060
+gmi/Qwen/Qwen3-235B-A22B-FP8	94a111ce	48429573
+gmi/Qwen/Qwen3-235B-A22B-Instruct-2507-FP8	94a111ce	48429573
+gmi/Qwen/Qwen3-235B-A22B-Thinking-2507-FP8	5242c02e	5feb3e82
+gmi/Qwen/Qwen3-30B-A3B	94a111ce	48429573
+gmi/Qwen/Qwen3-32B-FP8	94a111ce	48429573
+gmi/Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8	94a111ce	48429573
+gmi/Qwen/Qwen3-Next-80B-A3B-Instruct	94a111ce	48429573
+gmi/Qwen/Qwen3-Next-80B-A3B-Thinking	5242c02e	5feb3e82
 gmi/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8	94a111ce	48429573
+gmi/Qwen/Qwen3.5-122B-A10B	94a111ce	48429573
+gmi/Qwen/Qwen3.5-27B	94a111ce	48429573
+gmi/Qwen/Qwen3.5-35B-A3B	94a111ce	48429573
+gmi/Qwen/Qwen3.5-397B-A17B	94a111ce	48429573
+gmi/Qwen/Qwen3.6-35B-A3B	94a111ce	48429573
+gmi/Qwen/Qwen3.6-Plus	9186288e	54c17182
+gmi/Qwen/Qwen3.6-Plus-2026-04-02	9186288e	54c17182
+gmi/Qwen/Qwen3.7-Max	9186288e	54c17182
+gmi/Qwen/Qwen3.8-27B	70282732	e543bd67
+gmi/Qwen/Qwen3.8-Flash	70282732	e543bd67
+gmi/Qwen/Qwen3.8-Max	70282732	e543bd67
+gmi/Qwen/Qwen3.8-Max-0902	70282732	e543bd67
+gmi/XiaomiMiMo/MiMo-V2.5	97e18daf	f20e29e6
+gmi/XiaomiMiMo/MiMo-V2.5-Pro	97e18daf	f20e29e6
+gmi/XiaomiMiMo/MiMo-V2.6-Flash	97e18daf	f20e29e6
+gmi/XiaomiMiMo/MiMo-V2.6-Pro	97e18daf	f20e29e6
 gmi/anthropic/claude-opus-4	7af22a68	1edb4060
 gmi/anthropic/claude-opus-4.5	7af22a68	1edb4060
 gmi/anthropic/claude-sonnet-4	7af22a68	1edb4060
 gmi/anthropic/claude-sonnet-4.5	7af22a68	1edb4060
+gmi/deepseek-ai/DeepSeek-Prover-V2-671B	e7f5c7af	1edb4060
+gmi/deepseek-ai/DeepSeek-R1	7cd6eaf6	f830728e
+gmi/deepseek-ai/DeepSeek-R1-0528	7cd6eaf6	f830728e
+gmi/deepseek-ai/DeepSeek-R1-Distill-Llama-70B	7cd6eaf6	f830728e
+gmi/deepseek-ai/DeepSeek-R1-Distill-Llama-8B	7cd6eaf6	f830728e
+gmi/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B	7cd6eaf6	f830728e
+gmi/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B	7cd6eaf6	f830728e
+gmi/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B	7cd6eaf6	f830728e
 gmi/deepseek-ai/DeepSeek-V3-0324	e7f5c7af	1edb4060
+gmi/deepseek-ai/DeepSeek-V3.1	e7f5c7af	1edb4060
+gmi/deepseek-ai/DeepSeek-V3.1-Terminus	e7f5c7af	1edb4060
 gmi/deepseek-ai/DeepSeek-V3.2	e7f5c7af	1edb4060
+gmi/deepseek-ai/DeepSeek-V3.2-Exp	e7f5c7af	1edb4060
+gmi/deepseek-ai/DeepSeek-V3.2-Speciale	e7f5c7af	1edb4060
+gmi/deepseek-ai/DeepSeek-V4-Flash	7cd6eaf6	1b5a78cb
+gmi/deepseek-ai/DeepSeek-V4-Flash-0731	7cd6eaf6	1b5a78cb
+gmi/deepseek-ai/DeepSeek-V4-Pro-0813	7cd6eaf6	1b5a78cb
+gmi/deepseek-ai/DeepSeek-V4.1-Flash	7cd6eaf6	1b5a78cb
+gmi/deepseek-ai/deepseek-v4-flash-vision-exp	7cd6eaf6	1b5a78cb
+gmi/deepseek-ai/deepseek-v4.1-flash-1017	7cd6eaf6	1b5a78cb
+gmi/gmicloud/Ripple-65B-Preview	97e18daf	f20e29e6
 gmi/google/gemini-3-flash-preview	264adbd5	c9071d93
+gmi/google/gemini-3.1-flash-lite-preview	e6790487	c9071d93
+gmi/google/gemini-3.1-pro-preview	ae431ad8	f250f9bc
+gmi/google/gemini-3.5-flash	d08f0d07	c9071d93
+gmi/google/gemini-3.5-flash-lite	e6790487	c9071d93
+gmi/google/gemini-3.6-flash	d08f0d07	c9071d93
+gmi/google/gemini-3.7-flash	d0fa1e3c	29b7b224
+gmi/google/gemini-3.8-flash	d0fa1e3c	29b7b224
+gmi/google/gemini-4-argon	7af22a68	1edb4060
+gmi/google/gemma-4-26b-a4b-it	7af22a68	1edb4060
+gmi/google/gemma-4-31b-it	7af22a68	1edb4060
+gmi/meta-llama/Llama-3.3-70B-Instruct	97e18daf	f20e29e6
+gmi/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8	97e18daf	f20e29e6
+gmi/meta-llama/Llama-4-Scout-17B-16E-Instruct	97e18daf	f20e29e6
+gmi/moonshotai/Kimi-K2-Instruct-0905	97e18daf	f20e29e6
 gmi/moonshotai/Kimi-K2-Thinking	97e18daf	f20e29e6
+gmi/moonshotai/Kimi-K2.5	97e18daf	f20e29e6
+gmi/moonshotai/Kimi-K2.6	97e18daf	f20e29e6
+gmi/moonshotai/kimi-k2.7-code	97e18daf	f20e29e6
+gmi/moonshotai/kimi-k2.7-code-highspeed	97e18daf	f20e29e6
+gmi/moonshotai/kimi-k3	97e18daf	f20e29e6
+gmi/moonshotai/kimi-k3.1-pro	97e18daf	f20e29e6
+gmi/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16	97e18daf	f20e29e6
+gmi/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16	97e18daf	f20e29e6
+gmi/nvidia/nemotron-3-ultra-550b-a55b	97e18daf	f20e29e6
 gmi/openai/gpt-4o	9a276813	1edb4060
 gmi/openai/gpt-4o-mini	9a276813	1edb4060
 gmi/openai/gpt-5	48046c0e	2789b834
 gmi/openai/gpt-5.1	68735238	d0026c49
 gmi/openai/gpt-5.2	7242c71e	56aa525f
+gmi/openai/gpt-5.4	7242c71e	56aa525f
+gmi/openai/gpt-5.4-mini	7242c71e	56aa525f
+gmi/openai/gpt-5.4-nano	7242c71e	56aa525f
+gmi/openai/gpt-5.4-pro	7242c71e	56aa525f
+gmi/openai/gpt-5.5	7242c71e	56aa525f
+gmi/openai/gpt-5.6-luna	7242c71e	56aa525f
+gmi/openai/gpt-5.6-sol	7242c71e	56aa525f
+gmi/openai/gpt-5.6-terra	7242c71e	56aa525f
+gmi/openai/gpt-6-astra	5a3dba94	ddcbad0a
+gmi/openai/gpt-6-luna	5a3dba94	ddcbad0a
+gmi/openai/gpt-6-sol	5a3dba94	ddcbad0a
+gmi/openai/gpt-6.1-sol	5a3dba94	ddcbad0a
+gmi/openai/gpt-oss-120b	9a276813	1edb4060
+gmi/openai/gpt-oss-20b	9a276813	1edb4060
+gmi/stepfun-ai/Step-3.7-Flash	97e18daf	f20e29e6
+gmi/stepfun-ai/Step-5-Preview	97e18daf	f20e29e6
+gmi/tencent/HunyuanOCR	97e18daf	f20e29e6
+gmi/tencent/Hy3	97e18daf	f20e29e6
+gmi/tencent/hy3-preview	97e18daf	f20e29e6
+gmi/tencent/hy4	97e18daf	f20e29e6
+gmi/tencent/hy4-preview	97e18daf	f20e29e6
+gmi/x-ai/grok-4.5	8a7ba322	29b7b224
+gmi/xai/grok4.6	9f8e939c	1edb4060
+gmi/zai-org/GLM-4.5-Air-FP8	97e18daf	f20e29e6
+gmi/zai-org/GLM-4.5-FP8	97e18daf	f20e29e6
+gmi/zai-org/GLM-4.6	97e18daf	f20e29e6
 gmi/zai-org/GLM-4.7-FP8	97e18daf	f20e29e6
+gmi/zai-org/GLM-4.7-Flash	97e18daf	f20e29e6
+gmi/zai-org/GLM-5-FP8	97e18daf	f20e29e6
+gmi/zai-org/GLM-5.1-FP8	97e18daf	f20e29e6
+gmi/zai-org/GLM-5.2-FP8	97e18daf	f20e29e6
+gmi/zai-org/GLM-5.3	97e18daf	f20e29e6
+gmi/zai-org/GLM-5.3-Flash	97e18daf	f20e29e6
 google.gemma-3-12b-it	97e18daf	11f00057
 google.gemma-3-27b-it	97e18daf	11f00057
 google.gemma-3-4b-it	97e18daf	11f00057
@@ -5942,10 +6352,15 @@ gpt-5.6-sol	7242c71e	23079fb2
 gpt-5.6-terra	7242c71e	23079fb2
 gpt-6	5a3dba94	1a392d4d
 gpt-6-astra	5a3dba94	1a392d4d
+gpt-6-astra-law	5a3dba94	1a392d4d
+gpt-6-cyber	5a3dba94	1a392d4d
 gpt-6-luna	5a3dba94	1a392d4d
+gpt-6-rosalind	5a3dba94	1a392d4d
 gpt-6-sol	5a3dba94	1a392d4d
 gpt-6.1-sol	5a3dba94	1a392d4d
+gpt-6.1-terra	5a3dba94	1a392d4d
 gpt-7	5a3dba94	1a392d4d
+gpt-astra-latest	9a276813	bda9263a
 gpt-audio	9a276813	bda9263a
 gpt-audio-1.5	9a276813	bda9263a
 gpt-audio-2025-08-28	9a276813	bda9263a
@@ -5964,8 +6379,12 @@ gpt-image-2.5-flare	9a276813	bda9263a
 gpt-image-2.5-flare-2026-09-08	9a276813	bda9263a
 gpt-image-2.5-sunburst	9a276813	bda9263a
 gpt-image-2.5-sunburst-2026-09-08	9a276813	bda9263a
+gpt-image-2.6-flare	9a276813	bda9263a
+gpt-image-2.6-sunburst	9a276813	bda9263a
 gpt-live-1	9a276813	bda9263a
 gpt-live-transcribe	9a276813	bda9263a
+gpt-luna-latest	9a276813	bda9263a
+gpt-mini-latest	9a276813	bda9263a
 gpt-realtime	9a276813	bda9263a
 gpt-realtime-1.5	9a276813	bda9263a
 gpt-realtime-2	9a276813	bda9263a
@@ -5978,6 +6397,8 @@ gpt-realtime-translate	9a276813	bda9263a
 gpt-realtime-whisper	9a276813	bda9263a
 gpt-rosalind-discovery	9a276813	bda9263a
 gpt-rosalind-research	9a276813	bda9263a
+gpt-sol-latest	9a276813	bda9263a
+gpt-terra-latest	9a276813	bda9263a
 gpt-transcribe	9a276813	bda9263a
 gradient_ai/alibaba-qwen3-32b	94a111ce	48429573
 gradient_ai/anthropic-claude-3-opus	7af22a68	1edb4060
@@ -6003,7 +6424,6 @@ groq/canopylabs/orpheus-arabic-saudi	97e18daf	f20e29e6
 groq/canopylabs/orpheus-v1-english	97e18daf	f20e29e6
 groq/llama-3.1-8b-instant	97e18daf	f20e29e6
 groq/llama-3.3-70b-versatile	97e18daf	f20e29e6
-groq/llama-guard-3-8b	97e18daf	f20e29e6
 groq/meta-llama/llama-prompt-guard-2-22m	97e18daf	f20e29e6
 groq/meta-llama/llama-prompt-guard-2-86m	97e18daf	f20e29e6
 groq/openai/gpt-oss-120b	9a276813	1edb4060
@@ -6025,6 +6445,10 @@ high/1024-x-1536/gpt-image-1.5-2025-12-16	9a276813	1edb4060
 high/1536-x-1024/gpt-image-1	9a276813	1edb4060
 high/1536-x-1024/gpt-image-1.5	9a276813	1edb4060
 high/1536-x-1024/gpt-image-1.5-2025-12-16	9a276813	1edb4060
+hostinger_router/claude-sonnet-5	cb2d68dd	a3294578
+hostinger_router/gpt-5.2	7242c71e	56aa525f
+hostinger_router/text-embedding-3-large	97e18daf	f20e29e6
+hostinger_router/text-embedding-3-small	97e18daf	f20e29e6
 hyperbolic/NousResearch/Hermes-3-Llama-3.1-70B	97e18daf	f20e29e6
 hyperbolic/Qwen/QwQ-32B	12053068	1edb4060
 hyperbolic/Qwen/Qwen2.5-72B-Instruct	12053068	1edb4060
@@ -6042,6 +6466,7 @@ hyperbolic/meta-llama/Meta-Llama-3.1-70B-Instruct	97e18daf	f20e29e6
 hyperbolic/meta-llama/Meta-Llama-3.1-8B-Instruct	97e18daf	f20e29e6
 hyperbolic/moonshotai/Kimi-K2-Instruct	97e18daf	f20e29e6
 in.moonshotai.kimi-k3	97e18daf	11f00057
+in.moonshotai.kimi-k3.1	97e18daf	11f00057
 inception/mercury-2	97e18daf	f20e29e6
 inception/mercury-2.5	97e18daf	f20e29e6
 inferenceapis/MiniMaxAI/MiniMax-M3	9f8e939c	1edb4060
@@ -6095,7 +6520,9 @@ jamba-mini-1.7	97e18daf	11f00057
 jev-1.13.0	97e18daf	11f00057
 jev-latest	97e18daf	11f00057
 jev-preview	97e18daf	11f00057
+jina-reranker-m0	97e18daf	11f00057
 jina-reranker-v2-base-multilingual	97e18daf	11f00057
+jina-reranker-v3.5	97e18daf	11f00057
 jp.amazon.nova-2-lite-v1:0	97e18daf	f20e29e6
 jp.anthropic.claude-haiku-4-5-20251001-v1:0	7af22a68	1edb4060
 jp.anthropic.claude-haiku-5-5	7af22a68	bda9263a
@@ -6109,6 +6536,89 @@ jp.anthropic.claude-sonnet-5	cb2d68dd	0c062668
 jp.anthropic.claude-sonnet-5-5	7d8e3822	46fba062
 kimi-k2-thinking-251104	97e18daf	11f00057
 kimi-k3	97e18daf	11f00057
+kyma/claude-fable-5	7d8e3822	2c52eb91
+kyma/claude-fable-5.1	7d8e3822	cbb882e7
+kyma/claude-haiku-4-5	7af22a68	1edb4060
+kyma/claude-haiku-5.5	7af22a68	1edb4060
+kyma/claude-opus-4-7	cb2d68dd	a3294578
+kyma/claude-opus-5	cb2d68dd	a3294578
+kyma/claude-opus-5.5	7d8e3822	cbb882e7
+kyma/claude-sonnet-4-6	aeebecb0	dd588f9f
+kyma/claude-sonnet-5	cb2d68dd	a3294578
+kyma/claude-sonnet-5.5	7d8e3822	cbb882e7
+kyma/deepseek-r1	7cd6eaf6	f830728e
+kyma/deepseek-v3	e7f5c7af	1edb4060
+kyma/deepseek-v4-flash	7cd6eaf6	1b5a78cb
+kyma/deepseek-v4-flash-vision-exp	7cd6eaf6	1b5a78cb
+kyma/deepseek-v4.1-flash	7cd6eaf6	1b5a78cb
+kyma/gemini-3-flash	264adbd5	c9071d93
+kyma/gemini-3.1-pro	ae431ad8	f250f9bc
+kyma/gemini-3.5-flash	d08f0d07	c9071d93
+kyma/gemini-3.5-flash-lite	e6790487	c9071d93
+kyma/gemini-3.6-flash	d08f0d07	c9071d93
+kyma/gemini-3.7-flash	d0fa1e3c	29b7b224
+kyma/gemini-3.8-flash	d0fa1e3c	29b7b224
+kyma/gemini-4-argon	7af22a68	1edb4060
+kyma/gemma-4-31b	97e18daf	f20e29e6
+kyma/glm-4.5-air	97e18daf	f20e29e6
+kyma/glm-4.7-flash	97e18daf	f20e29e6
+kyma/glm-5.1	97e18daf	f20e29e6
+kyma/glm-5.2	97e18daf	f20e29e6
+kyma/glm-5.3	97e18daf	f20e29e6
+kyma/glm-5.3-flash	97e18daf	f20e29e6
+kyma/gpt-5.6-luna	7242c71e	56aa525f
+kyma/gpt-5.6-luna-pro	7242c71e	56aa525f
+kyma/gpt-5.6-sol	7242c71e	56aa525f
+kyma/gpt-5.6-sol-pro	7242c71e	56aa525f
+kyma/gpt-5.6-terra	7242c71e	56aa525f
+kyma/gpt-5.6-terra-pro	7242c71e	56aa525f
+kyma/gpt-6-astra	5a3dba94	ddcbad0a
+kyma/gpt-6-luna	5a3dba94	ddcbad0a
+kyma/gpt-6.1-sol	5a3dba94	ddcbad0a
+kyma/gpt-oss-120b	9a276813	1edb4060
+kyma/grok-4.20	3e731a43	98325674
+kyma/grok-4.20-multi-agent	3e731a43	98325674
+kyma/grok-4.3	8a7ba322	29b7b224
+kyma/grok-4.5	8a7ba322	29b7b224
+kyma/grok-4.6	8a7ba322	29b7b224
+kyma/grok-4.7	8a7ba322	29b7b224
+kyma/grok-build	9f8e939c	1edb4060
+kyma/hy3	97e18daf	f20e29e6
+kyma/hy4-preview	97e18daf	f20e29e6
+kyma/kimi-k2.6	97e18daf	f20e29e6
+kyma/kimi-k2.7-code	97e18daf	f20e29e6
+kyma/kimi-k3	97e18daf	f20e29e6
+kyma/kimi-k3.1-pro	97e18daf	f20e29e6
+kyma/llama-3.3-70b	97e18daf	f20e29e6
+kyma/llama-4-maverick	97e18daf	f20e29e6
+kyma/mimo-v2.5	97e18daf	f20e29e6
+kyma/mimo-v2.6-flash	97e18daf	f20e29e6
+kyma/mimo-v2.6-pro	97e18daf	f20e29e6
+kyma/minimax-m2.5	97e18daf	f20e29e6
+kyma/minimax-m2.7	97e18daf	f20e29e6
+kyma/minimax-m3	97e18daf	f20e29e6
+kyma/minimax-m3.1-flash	97e18daf	f20e29e6
+kyma/muse-glimmer-30b	97e18daf	f20e29e6
+kyma/muse-spark-1.1	97e18daf	f20e29e6
+kyma/muse-spark-1.2	97e18daf	f20e29e6
+kyma/muse-spark-1.3	97e18daf	f20e29e6
+kyma/muse-spark-open	97e18daf	f20e29e6
+kyma/muse-wonder	97e18daf	f20e29e6
+kyma/nemotron-3-ultra-550b	97e18daf	f20e29e6
+kyma/nemotron-3.5-super-vl	97e18daf	f20e29e6
+kyma/qwen-3-32b	12053068	1edb4060
+kyma/qwen-3-coder	12053068	1edb4060
+kyma/qwen-3.6-plus	12053068	1edb4060
+kyma/qwen-3.7-max	12053068	1edb4060
+kyma/qwen-3.7-plus	12053068	1edb4060
+kyma/qwen-3.8-max	12053068	1edb4060
+kyma/qwen3.7-flash	9186288e	54c17182
+kyma/qwen3.8-27b	70282732	e543bd67
+kyma/qwen3.8-flash	70282732	e543bd67
+kyma/sonar	97e18daf	f20e29e6
+kyma/sonar-pro	97e18daf	f20e29e6
+kyma/step-3.7-flash	97e18daf	f20e29e6
+kyma/step-5-preview	97e18daf	f20e29e6
 lambda_ai/deepseek-llama3.3-70b	e7f5c7af	1edb4060
 lambda_ai/deepseek-r1-0528	7cd6eaf6	f830728e
 lambda_ai/deepseek-r1-671b	7cd6eaf6	f830728e
@@ -6213,6 +6723,7 @@ meta.llama3-70b-instruct-v1:0	97e18daf	f20e29e6
 meta.llama3-8b-instruct-v1:0	97e18daf	f20e29e6
 meta.llama4-maverick-17b-instruct-v1:0	97e18daf	f20e29e6
 meta.llama4-scout-17b-instruct-v1:0	97e18daf	f20e29e6
+meta/muse-image-1.0	97e18daf	f20e29e6
 meta/muse-spark-1.1	97e18daf	f20e29e6
 meta/muse-spark-1.2	97e18daf	f20e29e6
 meta/muse-spark-1.2-contributor	97e18daf	f20e29e6
@@ -6220,6 +6731,7 @@ meta/muse-spark-1.3	97e18daf	f20e29e6
 meta/muse-spark-1.3-contributor	97e18daf	f20e29e6
 meta/muse-voice-transcribe-1.0	97e18daf	f20e29e6
 meta/muse-wonder-1.0	97e18daf	f20e29e6
+meta/sam-3.1	97e18daf	f20e29e6
 meta_llama/Llama-3.3-70B-Instruct	97e18daf	f20e29e6
 meta_llama/Llama-3.3-8B-Instruct	97e18daf	f20e29e6
 meta_llama/Llama-4-Maverick-17B-128E-Instruct-FP8	97e18daf	f20e29e6
@@ -6236,6 +6748,7 @@ minimax/MiniMax-M2.1-lightning	97e18daf	f20e29e6
 minimax/MiniMax-M2.5	97e18daf	f20e29e6
 minimax/MiniMax-M2.5-lightning	97e18daf	f20e29e6
 minimax/MiniMax-M3	97e18daf	f20e29e6
+minimax/minimax-latest	97e18daf	f20e29e6
 minimax/speech-02-hd	97e18daf	f20e29e6
 minimax/speech-02-turbo	97e18daf	f20e29e6
 minimax/speech-2.6-hd	97e18daf	f20e29e6
@@ -6264,6 +6777,7 @@ mistral/codestral-embed	97e18daf	f20e29e6
 mistral/codestral-embed-2505	97e18daf	f20e29e6
 mistral/codestral-latest	97e18daf	f20e29e6
 mistral/codestral-mamba-latest	97e18daf	f20e29e6
+mistral/deepseek-v4-1-flash-1017	7cd6eaf6	1b5a78cb
 mistral/devstral-latest	97e18daf	f20e29e6
 mistral/devstral-medium-latest	97e18daf	f20e29e6
 mistral/devstral-small-latest	97e18daf	f20e29e6
@@ -6318,15 +6832,24 @@ mistral/voxtral-mini-2602	97e18daf	f20e29e6
 mistral/voxtral-mini-latest	97e18daf	f20e29e6
 mistral/voxtral-mini-realtime-2602	97e18daf	f20e29e6
 mistral/voxtral-mini-realtime-latest	97e18daf	f20e29e6
+mistral/voxtral-mini-transcribe-3	97e18daf	f20e29e6
+mistral/voxtral-mini-transcribe-3-0	97e18daf	f20e29e6
 mistral/voxtral-mini-transcribe-realtime-2602	97e18daf	f20e29e6
+mistral/voxtral-mini-transcribe-realtime-3	97e18daf	f20e29e6
+mistral/voxtral-mini-transcribe-realtime-3-0	97e18daf	f20e29e6
 mistral/voxtral-mini-transcribe-realtime-latest	97e18daf	f20e29e6
 mistral/voxtral-mini-tts-2603	97e18daf	f20e29e6
+mistral/voxtral-mini-tts-3	97e18daf	f20e29e6
+mistral/voxtral-mini-tts-3-0	97e18daf	f20e29e6
 mistral/voxtral-mini-tts-latest	97e18daf	f20e29e6
 mistral/voxtral-small-2507	97e18daf	f20e29e6
 mistral/voxtral-small-latest	97e18daf	f20e29e6
+mistral/voxtral-small-transcribe-3	97e18daf	f20e29e6
+mistral/voxtral-small-transcribe-3-0	97e18daf	f20e29e6
 mistral/zai-glm-5	97e18daf	f20e29e6
 mistral/zai-glm-5-2	97e18daf	f20e29e6
 mistral/zai-glm-5-3	97e18daf	f20e29e6
+mistral/zai-glm-5-3-flash	97e18daf	f20e29e6
 mistral/zai-glm-latest	97e18daf	f20e29e6
 models/gemini-2.5-flash	8adf87b9	285026e6
 moonshot.kimi-k2-thinking	97e18daf	11f00057
@@ -6334,6 +6857,9 @@ moonshot/kimi-k2.5	97e18daf	f20e29e6
 moonshot/kimi-k2.6	97e18daf	f20e29e6
 moonshot/kimi-k2.7-code	97e18daf	f20e29e6
 moonshot/kimi-k3	97e18daf	f20e29e6
+moonshot/kimi-k3.1-pro	97e18daf	f20e29e6
+moonshot/kimi-k3.1-pro-highspeed	97e18daf	f20e29e6
+moonshot/kimi-latest	97e18daf	f20e29e6
 moonshot/moonshot-v1-128k	97e18daf	f20e29e6
 moonshot/moonshot-v1-128k-vision-preview	97e18daf	f20e29e6
 moonshot/moonshot-v1-32k	97e18daf	f20e29e6
@@ -6343,6 +6869,15 @@ moonshot/moonshot-v1-8k-vision-preview	97e18daf	f20e29e6
 moonshot/moonshot-v1-auto	97e18daf	f20e29e6
 moonshotai.kimi-k2.5	97e18daf	11f00057
 moonshotai.kimi-k3	97e18daf	11f00057
+moonshotai.kimi-k3.1	97e18daf	11f00057
+morph/morph-dsv41flash	97e18daf	f20e29e6
+morph/morph-dsv41flash-1017	97e18daf	f20e29e6
+morph/morph-dsv41flash-abliterated	97e18daf	f20e29e6
+morph/morph-dsv4flash	97e18daf	f20e29e6
+morph/morph-glm53-744b	97e18daf	f20e29e6
+morph/morph-glm53flash	97e18daf	f20e29e6
+morph/morph-kimik3	97e18daf	f20e29e6
+morph/morph-kimik3-fast	97e18daf	f20e29e6
 morph/morph-v3-fast	97e18daf	f20e29e6
 morph/morph-v3-large	97e18daf	f20e29e6
 multimodalembedding	97e18daf	11f00057
@@ -6355,6 +6890,7 @@ nebius/BAAI/bge-en-icl	97e18daf	f20e29e6
 nebius/BAAI/bge-multilingual-gemma2	97e18daf	f20e29e6
 nebius/MiniMaxAI/MiniMax-M2.5	9f8e939c	1edb4060
 nebius/MiniMaxAI/MiniMax-M3	9f8e939c	1edb4060
+nebius/MiniMaxAI/MiniMax-M3.1-Flash	9f8e939c	1edb4060
 nebius/NousResearch/Hermes-3-Llama-3.1-405B	97e18daf	f20e29e6
 nebius/NousResearch/Hermes-4-405B	97e18daf	f20e29e6
 nebius/NousResearch/Hermes-4-70B	97e18daf	f20e29e6
@@ -6386,6 +6922,7 @@ nebius/deepseek-ai/DeepSeek-V4-Flash-0731	7cd6eaf6	1b5a78cb
 nebius/deepseek-ai/DeepSeek-V4-Pro	7cd6eaf6	1b5a78cb
 nebius/deepseek-ai/DeepSeek-V4-Pro-0813	7cd6eaf6	1b5a78cb
 nebius/deepseek-ai/DeepSeek-V4.1-Flash	7cd6eaf6	1b5a78cb
+nebius/deepseek-ai/DeepSeek-V4.1-Flash-1017	7cd6eaf6	1b5a78cb
 nebius/google/gemma-3-27b-it	7af22a68	1edb4060
 nebius/intfloat/e5-mistral-7b-instruct	97e18daf	f20e29e6
 nebius/meta-llama/Llama-3.3-70B-Instruct	97e18daf	f20e29e6
@@ -6393,10 +6930,12 @@ nebius/meta-llama/Llama-Guard-3-8B	97e18daf	f20e29e6
 nebius/meta-llama/Meta-Llama-3.1-405B-Instruct	97e18daf	f20e29e6
 nebius/meta-llama/Meta-Llama-3.1-70B-Instruct	97e18daf	f20e29e6
 nebius/meta-llama/Meta-Llama-3.1-8B-Instruct	97e18daf	f20e29e6
+nebius/meta-models/muse-spark-open	97e18daf	f20e29e6
 nebius/mistralai/Mistral-Nemo-Instruct-2407	97e18daf	f20e29e6
 nebius/moonshotai/Kimi-K2.6	97e18daf	f20e29e6
 nebius/moonshotai/Kimi-K2.7-Code	97e18daf	f20e29e6
 nebius/moonshotai/Kimi-K3	97e18daf	f20e29e6
+nebius/moonshotai/Kimi-K3.1-Pro	97e18daf	f20e29e6
 nebius/nvidia/Cosmos3-Super-Reasoner	97e18daf	f20e29e6
 nebius/nvidia/Llama-3.1-Nemotron-Ultra-253B-v1	97e18daf	f20e29e6
 nebius/nvidia/Llama-3.3-Nemotron-Super-49B-v1	97e18daf	f20e29e6
@@ -6404,6 +6943,7 @@ nebius/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1	97e18daf	f20e29e6
 nebius/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B	97e18daf	f20e29e6
 nebius/nvidia/Nemotron-3-Nano-Omni	97e18daf	f20e29e6
 nebius/nvidia/Nemotron-3-Ultra-550b-a55b	97e18daf	f20e29e6
+nebius/nvidia/Nemotron-3.5-Super-VL	97e18daf	f20e29e6
 nebius/nvidia/Nemotron-3_5-Lightning	97e18daf	f20e29e6
 nebius/nvidia/nemotron-3-super-120b-a12b	97e18daf	f20e29e6
 nebius/openai/gpt-oss-120b	9a276813	1edb4060
@@ -6687,6 +7227,36 @@ openai/sora-2	9a276813	1edb4060
 openai/sora-2-pro	9a276813	1edb4060
 openai/sora-2-pro-high-res	9a276813	1edb4060
 openai/unknown-model	9a276813	1edb4060
+opencode_go/beam-free	97e18daf	f20e29e6
+opencode_go/claude-haiku-5-5	7af22a68	1edb4060
+opencode_go/deepseek-v4-pro	7cd6eaf6	1b5a78cb
+opencode_go/deepseek-v4.1-flash	7cd6eaf6	1b5a78cb
+opencode_go/gemini-4-argon	7af22a68	1edb4060
+opencode_go/glm-5.2	97e18daf	f20e29e6
+opencode_go/glm-5.3	97e18daf	f20e29e6
+opencode_go/glm-5.3-flash	97e18daf	f20e29e6
+opencode_go/gpt-5.6-luna	7242c71e	56aa525f
+opencode_go/gpt-6-luna	5a3dba94	ddcbad0a
+opencode_go/grok-4.7	8a7ba322	29b7b224
+opencode_go/hy3	97e18daf	f20e29e6
+opencode_go/hy4-preview	97e18daf	f20e29e6
+opencode_go/kimi-k2.7-code	97e18daf	f20e29e6
+opencode_go/kimi-k3	97e18daf	f20e29e6
+opencode_go/kimi-k3.1-pro	97e18daf	f20e29e6
+opencode_go/longcat-2.0	97e18daf	f20e29e6
+opencode_go/longcat-2.5-preview-free	97e18daf	f20e29e6
+opencode_go/mimo-v2.5	97e18daf	f20e29e6
+opencode_go/mimo-v2.5-pro	97e18daf	f20e29e6
+opencode_go/mimo-v2.6-flash	97e18daf	f20e29e6
+opencode_go/mimo-v2.6-pro	97e18daf	f20e29e6
+opencode_go/minimax-m3	97e18daf	f20e29e6
+opencode_go/minimax-m3.1-flash	97e18daf	f20e29e6
+opencode_go/muse-spark-1.2-contributor	97e18daf	f20e29e6
+opencode_go/muse-spark-1.3-contributor	97e18daf	f20e29e6
+opencode_go/qwen3.7-plus	9186288e	54c17182
+opencode_go/qwen3.8-flash	70282732	e543bd67
+opencode_go/qwen3.8-max	70282732	e543bd67
+opencode_go/step-5-preview	97e18daf	f20e29e6
 openinfer/@oi/GLM-5.3-Flash	97e18daf	f20e29e6
 openinfer/@oi/Qwen3.5-27B	94a111ce	48429573
 openinfer/@oi/Qwen3.5-9B	94a111ce	48429573
@@ -6705,6 +7275,7 @@ ovhcloud/gpt-oss-120b	9a276813	1edb4060
 ovhcloud/gpt-oss-20b	9a276813	1edb4060
 ovhcloud/llava-v1.6-mistral-7b-hf	97e18daf	f20e29e6
 ovhcloud/mamba-codestral-7B-v0.1	97e18daf	f20e29e6
+parallel_ai/decision	97e18daf	f20e29e6
 parallel_ai/search	97e18daf	f20e29e6
 parallel_ai/search-fast	97e18daf	f20e29e6
 parallel_ai/search-pro	97e18daf	f20e29e6
@@ -6736,6 +7307,7 @@ perplexity/google/gemini-3.5-flash-lite	e6790487	c9071d93
 perplexity/google/gemini-3.6-flash	d08f0d07	c9071d93
 perplexity/google/gemini-3.7-flash	d0fa1e3c	29b7b224
 perplexity/google/gemini-3.8-flash	d0fa1e3c	29b7b224
+perplexity/google/gemini-4-argon	7af22a68	1edb4060
 perplexity/llama-2-70b-chat	97e18daf	f20e29e6
 perplexity/llama-3.1-70b-instruct	97e18daf	f20e29e6
 perplexity/llama-3.1-8b-instruct	97e18daf	f20e29e6
@@ -6767,6 +7339,7 @@ perplexity/perplexity/kimi-k2.7-code	97e18daf	f20e29e6
 perplexity/perplexity/kimi-k3	97e18daf	f20e29e6
 perplexity/perplexity/nemotron-3-ultra-550b-a55b	97e18daf	f20e29e6
 perplexity/perplexity/nemotron-3.5-lightning-30b-a3b	97e18daf	f20e29e6
+perplexity/perplexity/nemotron-3.5-super-120b-a12b	97e18daf	f20e29e6
 perplexity/perplexity/sonar	97e18daf	f20e29e6
 perplexity/pplx-70b-chat	97e18daf	f20e29e6
 perplexity/pplx-70b-online	97e18daf	f20e29e6
@@ -6986,6 +7559,11 @@ recraft/recraftv2	97e18daf	f20e29e6
 recraft/recraftv3	97e18daf	f20e29e6
 reducto/parse-legacy	97e18daf	f20e29e6
 reducto/parse-v3	97e18daf	f20e29e6
+refuseless/deepseek-v4.1-flash-abliterated	7cd6eaf6	1b5a78cb
+refuseless/deepseek-v4.1-flash-fast	7cd6eaf6	1b5a78cb
+refuseless/glm-5.3-abliterated	97e18daf	f20e29e6
+refuseless/glm-5.3-flash-abliterated	97e18daf	f20e29e6
+refuseless/minimax-m3.1-flash	97e18daf	f20e29e6
 replicate/anthropic/claude-3.5-haiku	7af22a68	1edb4060
 replicate/anthropic/claude-3.5-sonnet	7af22a68	1edb4060
 replicate/anthropic/claude-3.7-sonnet	7af22a68	1edb4060
@@ -7031,6 +7609,8 @@ rerank-multilingual-v3.0	97e18daf	11f00057
 rerank-v3.5	97e18daf	11f00057
 rerank-v4.0-fast	97e18daf	11f00057
 rerank-v4.0-pro	97e18daf	11f00057
+rerank-v5.0-fast	97e18daf	11f00057
+rerank-v5.0-pro	97e18daf	11f00057
 runwayml/aleph2	97e18daf	f20e29e6
 runwayml/eleven_multilingual_v2	97e18daf	f20e29e6
 runwayml/gemini_omni_flash	7af22a68	1edb4060
@@ -7138,6 +7718,12 @@ snowflake/snowflake-llama-3.1-405b	97e18daf	f20e29e6
 snowflake/snowflake-llama-3.3-70b	97e18daf	f20e29e6
 soniox/stt-async-v4	97e18daf	f20e29e6
 soniox/stt-async-v5	97e18daf	f20e29e6
+soniox/stt-rt-preview	97e18daf	f20e29e6
+soniox/stt-rt-preview-v2	97e18daf	f20e29e6
+soniox/stt-rt-v3	97e18daf	f20e29e6
+soniox/stt-rt-v3-preview	97e18daf	f20e29e6
+soniox/stt-rt-v4	97e18daf	f20e29e6
+soniox/stt-rt-v5	97e18daf	f20e29e6
 sora-2	97e18daf	11f00057
 sora-2-pro	97e18daf	11f00057
 sora-2-pro-high-res	97e18daf	11f00057
@@ -7191,6 +7777,32 @@ standard/1024-x-1536/gpt-image-1.5-2025-12-16	9a276813	1edb4060
 standard/1536-x-1024/gpt-image-1.5	9a276813	1edb4060
 standard/1536-x-1024/gpt-image-1.5-2025-12-16	9a276813	1edb4060
 strands_decider/strands-decider-2B-hobson-v19	97e18daf	f20e29e6
+streamlake/DeepSeek-V3	e7f5c7af	1edb4060
+streamlake/DeepSeek-V4-Pro-0813	7cd6eaf6	1b5a78cb
+streamlake/GLM-5.3	97e18daf	f20e29e6
+streamlake/GLM-5.3-Flash	97e18daf	f20e29e6
+streamlake/Kimi-K2-Instruct-0905	97e18daf	f20e29e6
+streamlake/deepseek-r1	7cd6eaf6	f830728e
+streamlake/deepseek-v3.1	e7f5c7af	1edb4060
+streamlake/deepseek-v4-flash	7cd6eaf6	1b5a78cb
+streamlake/deepseek-v4-flash-0731	7cd6eaf6	1b5a78cb
+streamlake/deepseek-v4-pro	7cd6eaf6	1b5a78cb
+streamlake/deepseek-v4.1-flash-1017	7cd6eaf6	1b5a78cb
+streamlake/deepseek-v4.1-flash-260910	7cd6eaf6	1b5a78cb
+streamlake/glm-5	97e18daf	f20e29e6
+streamlake/glm-5.1	97e18daf	f20e29e6
+streamlake/glm-5.2	97e18daf	f20e29e6
+streamlake/kimi-k2.6	97e18daf	f20e29e6
+streamlake/kimi-k2.7-code	97e18daf	f20e29e6
+streamlake/mimo-v2.6-flash	97e18daf	f20e29e6
+streamlake/mimo-v2.6-pro	97e18daf	f20e29e6
+streamlake/minimax-m2.5	97e18daf	f20e29e6
+streamlake/minimax-m3	97e18daf	f20e29e6
+streamlake/qwen3.5-397b-a17b	94a111ce	48429573
+streamlake/qwen3.6-27b	94a111ce	48429573
+streamlake/qwen3.6-35b-a3b	94a111ce	48429573
+streamlake/qwen3.8-2.4t-a95b	92eae6cd	60a25f63
+streamlake/qwen3.8-27b	70282732	e543bd67
 tavily/search	97e18daf	f20e29e6
 tavily/search-advanced	97e18daf	f20e29e6
 tencent/deepseek-v4-flash	7cd6eaf6	1b5a78cb
@@ -7201,11 +7813,16 @@ tencent/glm-5.2	97e18daf	f20e29e6
 tencent/glm-5.3	97e18daf	f20e29e6
 tencent/glm-5.3-flash	97e18daf	f20e29e6
 tencent/glm-5.3-flashx	97e18daf	f20e29e6
+tencent/hy4	97e18daf	f20e29e6
+tencent/hy4-preview	97e18daf	f20e29e6
 tencent/kimi-k2.7-code	97e18daf	f20e29e6
 tencent/kimi-k2.7-code-highspeed	97e18daf	f20e29e6
 tencent/kimi-k2.8-preview	97e18daf	f20e29e6
 tencent/kimi-k3	97e18daf	f20e29e6
 tencent/minimax-m3	97e18daf	f20e29e6
+tencent/seedream-image-v5.0-flash	97e18daf	f20e29e6
+tencent/seedream-image-v5.0-lite	97e18daf	f20e29e6
+tencent/seedream-image-v5.0-pro	97e18daf	f20e29e6
 tensormesh/MiniMaxAI/MiniMax-M2.5	9f8e939c	1edb4060
 tensormesh/Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8	94a111ce	48429573
 tensormesh/Qwen/Qwen3.5-397B-A17B-FP8	94a111ce	48429573
@@ -7242,17 +7859,13 @@ together-ai-up-to-4b	97e18daf	11f00057
 together_ai/BAAI/bge-base-en-v1.5	97e18daf	f20e29e6
 together_ai/MiniMaxAI/MiniMax-M2.7	9f8e939c	1edb4060
 together_ai/MiniMaxAI/MiniMax-M3	9f8e939c	1edb4060
-together_ai/NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO	97e18daf	f20e29e6
+together_ai/MiniMaxAI/MiniMax-M3.1-Flash	9f8e939c	1edb4060
 together_ai/Prism-ML/Ternary-Bonsai-27B	97e18daf	f20e29e6
-together_ai/Qwen/QwQ-32B	12053068	1edb4060
 together_ai/Qwen/Qwen2-1.5B-Instruct	12053068	1edb4060
-together_ai/Qwen/Qwen2-72B-Instruct	12053068	1edb4060
-together_ai/Qwen/Qwen2-VL-72B-Instruct	12053068	1edb4060
 together_ai/Qwen/Qwen2.5-14B-Instruct	12053068	1edb4060
 together_ai/Qwen/Qwen2.5-72B-Instruct	12053068	1edb4060
 together_ai/Qwen/Qwen2.5-72B-Instruct-Turbo	12053068	1edb4060
 together_ai/Qwen/Qwen2.5-7B-Instruct-Turbo	12053068	1edb4060
-together_ai/Qwen/Qwen2.5-Coder-32B-Instruct	12053068	1edb4060
 together_ai/Qwen/Qwen2.5-VL-72B-Instruct	12053068	1edb4060
 together_ai/Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8	94a111ce	48429573
 together_ai/Qwen/Qwen3-Coder-Next-FP8	94a111ce	48429573
@@ -7271,33 +7884,29 @@ together_ai/Salesforce/Llama-Rank-V1	97e18daf	f20e29e6
 together_ai/arcee-ai/trinity-mini	97e18daf	f20e29e6
 together_ai/arize-ai/qwen-2-1.5b-instruct	12053068	1edb4060
 together_ai/deepseek-ai/DeepSeek-R1-0528	7cd6eaf6	f830728e
-together_ai/deepseek-ai/DeepSeek-R1-Distill-Llama-70B	7cd6eaf6	f830728e
-together_ai/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B	7cd6eaf6	f830728e
-together_ai/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B	7cd6eaf6	f830728e
 together_ai/deepseek-ai/DeepSeek-V3	e7f5c7af	1edb4060
 together_ai/deepseek-ai/DeepSeek-V3.1	e7f5c7af	1edb4060
 together_ai/deepseek-ai/DeepSeek-V4-Flash-0731	7cd6eaf6	1b5a78cb
 together_ai/deepseek-ai/DeepSeek-V4-Pro-0813	7cd6eaf6	1b5a78cb
 together_ai/deepseek-ai/DeepSeek-V4.1-Flash	7cd6eaf6	1b5a78cb
 together_ai/deepseek-ai/DeepSeek-V4.1-Flash-1017	7cd6eaf6	1b5a78cb
-together_ai/deepseek-ai/deepseek-coder-33b-instruct	e7f5c7af	1edb4060
-together_ai/google/gemma-2-27b-it	7af22a68	1edb4060
+together_ai/deepseek-pro-latest	e7f5c7af	1edb4060
+together_ai/essentialai/rnj-1-instruct	97e18daf	f20e29e6
+together_ai/glm-flash-latest	97e18daf	f20e29e6
+together_ai/glm-latest	97e18daf	f20e29e6
 together_ai/google/gemma-4-31B-it	7af22a68	1edb4060
-together_ai/meta-llama/Llama-3-8b-chat-hf	97e18daf	f20e29e6
+together_ai/kimi-latest	97e18daf	f20e29e6
 together_ai/meta-llama/Llama-3.1-405B-Instruct	97e18daf	f20e29e6
 together_ai/meta-llama/Llama-3.2-1B-Instruct	97e18daf	f20e29e6
 together_ai/meta-llama/Llama-3.2-3B-Instruct	97e18daf	f20e29e6
 together_ai/meta-llama/Llama-3.3-70B-Instruct-Turbo	97e18daf	f20e29e6
 together_ai/meta-llama/Llama-4-Scout-17B-16E-Instruct	97e18daf	f20e29e6
-together_ai/meta-llama/Meta-Llama-3-70B-Instruct-Turbo	97e18daf	f20e29e6
-together_ai/meta-llama/Meta-Llama-3-8B-Instruct	97e18daf	f20e29e6
 together_ai/meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo	97e18daf	f20e29e6
 together_ai/meta-llama/Meta-Llama-3.1-8B	97e18daf	f20e29e6
 together_ai/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo	97e18daf	f20e29e6
 together_ai/meta-models/Muse-Glimmer-30B	97e18daf	f20e29e6
 together_ai/meta-models/Muse-Spark-Open-816B-A42B	97e18daf	f20e29e6
 together_ai/mistralai/Ministral-3-14B-Instruct-2512	97e18daf	f20e29e6
-together_ai/mistralai/Mistral-7B-Instruct-v0.1	97e18daf	f20e29e6
 together_ai/mistralai/Mistral-7B-Instruct-v0.3	97e18daf	f20e29e6
 together_ai/mistralai/Mistral-Small-24B-Instruct-2501	97e18daf	f20e29e6
 together_ai/mistralai/Mixtral-8x7B-Instruct-v0.1	97e18daf	f20e29e6
@@ -7306,13 +7915,15 @@ together_ai/moonshotai/Kimi-K2.5-fp4	97e18daf	f20e29e6
 together_ai/moonshotai/Kimi-K2.6	97e18daf	f20e29e6
 together_ai/moonshotai/Kimi-K2.7-Code	97e18daf	f20e29e6
 together_ai/moonshotai/Kimi-K3	97e18daf	f20e29e6
-together_ai/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF	97e18daf	f20e29e6
+together_ai/moonshotai/Kimi-K3.1-Pro	97e18daf	f20e29e6
 together_ai/nvidia/NVIDIA-Nemotron-3.5-Super-VL	97e18daf	f20e29e6
 together_ai/nvidia/NVIDIA-Nemotron-Nano-9B-v2	97e18daf	f20e29e6
 together_ai/nvidia/nemotron-3-ultra-550b-a55b	97e18daf	f20e29e6
 together_ai/openai/gpt-oss-120b	9a276813	1edb4060
 together_ai/openai/gpt-oss-20b	9a276813	1edb4060
+together_ai/qwen-flash-latest	12053068	1edb4060
 together_ai/reflection/Beam-1.0-501B-A23B	97e18daf	f20e29e6
+together_ai/ricursive-ai/Ripple-65B-Preview	97e18daf	f20e29e6
 together_ai/thinkingmachines/Inkling	97e18daf	f20e29e6
 together_ai/together/Tev1-4B-experimental	97e18daf	f20e29e6
 together_ai/togethercomputer/CodeLlama-34b-Instruct	97e18daf	f20e29e6
@@ -7353,6 +7964,7 @@ us-gov.nvidia.nemotron-super-3-120b	97e18daf	11f00057
 us-gov.openai.gpt-oss-120b-1:0	9a276813	1edb4060
 us-gov.openai.gpt-oss-20b-1:0	9a276813	1edb4060
 us-gov.xai.grok-4.6	8a7ba322	0b2308d5
+us-gov.xai.grok-4.7	8a7ba322	0b2308d5
 us.amazon.nova-2-lite-v1:0	97e18daf	f20e29e6
 us.amazon.nova-2-pro-preview-20251202-v1:0	97e18daf	f20e29e6
 us.amazon.nova-canvas-v1:0	97e18daf	f20e29e6
@@ -7400,6 +8012,7 @@ us.meta.llama4-maverick-17b-instruct-v1:0	97e18daf	f20e29e6
 us.meta.llama4-scout-17b-instruct-v1:0	97e18daf	f20e29e6
 us.mistral.pixtral-large-2502-v1:0	97e18daf	f20e29e6
 us.moonshotai.kimi-k3	97e18daf	11f00057
+us.moonshotai.kimi-k3.1	97e18daf	11f00057
 us.openai.gpt-5.4	7242c71e	f06935c4
 us.openai.gpt-5.5	7242c71e	f06935c4
 us.openai.gpt-5.6-luna	7242c71e	f06935c4
@@ -7409,6 +8022,7 @@ us.openai.gpt-6-astra	5a3dba94	29f44933
 us.openai.gpt-6-luna	5a3dba94	29f44933
 us.openai.gpt-6-sol	5a3dba94	29f44933
 us.openai.gpt-6.1-sol	5a3dba94	29f44933
+us.openai.gpt-6.1-terra	5a3dba94	29f44933
 us.stability.stable-conservative-upscale-v1:0	97e18daf	f20e29e6
 us.stability.stable-creative-upscale-v1:0	97e18daf	f20e29e6
 us.stability.stable-fast-upscale-v1:0	97e18daf	f20e29e6
@@ -7542,18 +8156,18 @@ vertex_ai/claude-3-5-sonnet	7af22a68	1edb4060
 vertex_ai/claude-3-5-sonnet@20240620	7af22a68	1edb4060
 vertex_ai/claude-3-haiku	7af22a68	1edb4060
 vertex_ai/claude-3-haiku@20240307	7af22a68	1edb4060
-vertex_ai/claude-3-opus	7af22a68	1edb4060
-vertex_ai/claude-3-opus@20240229	7af22a68	1edb4060
 vertex_ai/claude-3-sonnet	7af22a68	1edb4060
 vertex_ai/claude-3-sonnet@20240229	7af22a68	1edb4060
 vertex_ai/claude-fable-5	7d8e3822	2c52eb91
 vertex_ai/claude-fable-5-1	7d8e3822	cbb882e7
 vertex_ai/claude-fable-5-1@default	7d8e3822	2c52eb91
 vertex_ai/claude-fable-5@default	7af22a68	a9f48ec6
+vertex_ai/claude-fable-latest	7af22a68	1edb4060
 vertex_ai/claude-haiku-4-5	7af22a68	1edb4060
 vertex_ai/claude-haiku-4-5@20251001	7af22a68	1edb4060
 vertex_ai/claude-haiku-5-5	7af22a68	1edb4060
 vertex_ai/claude-haiku-5-5@default	7af22a68	1edb4060
+vertex_ai/claude-haiku-latest	7af22a68	1edb4060
 vertex_ai/claude-opus-4-5	890864de	ccbf4d97
 vertex_ai/claude-opus-4-5@20251101	7af22a68	1edb4060
 vertex_ai/claude-opus-4-6	aeebecb0	dd588f9f
@@ -7566,6 +8180,7 @@ vertex_ai/claude-opus-5	cb2d68dd	a3294578
 vertex_ai/claude-opus-5-5	7d8e3822	cbb882e7
 vertex_ai/claude-opus-5-5@default	cb2d68dd	a3294578
 vertex_ai/claude-opus-5@default	7af22a68	a9f48ec6
+vertex_ai/claude-opus-latest	7af22a68	1edb4060
 vertex_ai/claude-sonnet-4-5	7af22a68	1edb4060
 vertex_ai/claude-sonnet-4-5@20250929	7af22a68	1edb4060
 vertex_ai/claude-sonnet-4-6	aeebecb0	dd588f9f
@@ -7574,6 +8189,7 @@ vertex_ai/claude-sonnet-5	cb2d68dd	a3294578
 vertex_ai/claude-sonnet-5-5	7d8e3822	cbb882e7
 vertex_ai/claude-sonnet-5-5@default	cb2d68dd	a3294578
 vertex_ai/claude-sonnet-5@default	7af22a68	a9f48ec6
+vertex_ai/claude-sonnet-latest	7af22a68	1edb4060
 vertex_ai/codestral-2	97e18daf	f20e29e6
 vertex_ai/codestral-2501	97e18daf	f20e29e6
 vertex_ai/codestral-2@001	97e18daf	f20e29e6
@@ -7625,9 +8241,11 @@ vertex_ai/gemini-embedding-2-preview	7af22a68	1edb4060
 vertex_ai/gemini-nano-banana-2.1	7af22a68	1edb4060
 vertex_ai/gemini-omni-1.1-flash	7af22a68	1edb4060
 vertex_ai/gemini-omni-1.1-flash-preview	7af22a68	1edb4060
+vertex_ai/gemini-omni-1.2-flash	7af22a68	1edb4060
 vertex_ai/gemini-robotics-er-2-preview	7af22a68	1edb4060
 vertex_ai/gemma-4-26b-a4b-it	97e18daf	f20e29e6
 vertex_ai/google/gemma-4-26b-a4b-it-maas	7af22a68	1edb4060
+vertex_ai/grok-latest	9f8e939c	1edb4060
 vertex_ai/jamba-1.5	97e18daf	f20e29e6
 vertex_ai/jamba-1.5-large	97e18daf	f20e29e6
 vertex_ai/jamba-1.5-large@001	97e18daf	f20e29e6
@@ -7703,7 +8321,9 @@ volcengine/doubao-seed-2-0-code-preview-260215	97e18daf	f20e29e6
 volcengine/doubao-seed-2-0-lite-260215	97e18daf	f20e29e6
 volcengine/doubao-seed-2-0-mini-260215	97e18daf	f20e29e6
 volcengine/doubao-seed-2-0-pro-260215	97e18daf	f20e29e6
+volcengine/doubao-seed-2-1-lite-260915	97e18daf	f20e29e6
 volcengine/doubao-seed-2-1-pro-260628	97e18daf	f20e29e6
+volcengine/doubao-seed-2-1-pro-260915	97e18daf	f20e29e6
 volcengine/doubao-seed-2-1-turbo-260628	97e18daf	f20e29e6
 volcengine/doubao-seedance-2-0-260128	97e18daf	f20e29e6
 volcengine/doubao-seedance-2-0-fast-260128	97e18daf	f20e29e6
@@ -7740,6 +8360,16 @@ voyage/voyage-lite-02-instruct	97e18daf	f20e29e6
 voyage/voyage-multilingual-2	97e18daf	f20e29e6
 voyage/voyage-multimodal-3	97e18daf	f20e29e6
 voyage/voyage-multimodal-3.5	97e18daf	f20e29e6
+wally/deepseek-v4-flash-0731	7cd6eaf6	1b5a78cb
+wally/deepseek-v4-pro-fast	7cd6eaf6	1b5a78cb
+wally/deepseek-v4.1-flash	7cd6eaf6	1b5a78cb
+wally/deepseek-v4.1-flash-1017	7cd6eaf6	1b5a78cb
+wally/deepseek-v4.1-flash-f2	7cd6eaf6	1b5a78cb
+wally/deepseek-v4.1-flash-fast	7cd6eaf6	1b5a78cb
+wally/glm-5.3-fast	97e18daf	f20e29e6
+wally/glm-5.3-flash	97e18daf	f20e29e6
+wally/kimi-k3	97e18daf	f20e29e6
+wally/minimax-m3	97e18daf	f20e29e6
 wandb/JetBrains/Mellum2-12B-A2.5B-Instruct	97e18daf	f20e29e6
 wandb/MiniMaxAI/MiniMax-M3	9f8e939c	1edb4060
 wandb/OpenPipe/Qwen3-14B-Instruct	94a111ce	48429573
@@ -7754,6 +8384,7 @@ wandb/deepseek-ai/DeepSeek-V4-Flash-0731	7cd6eaf6	1b5a78cb
 wandb/deepseek-ai/DeepSeek-V4-Pro	7cd6eaf6	1b5a78cb
 wandb/deepseek-ai/DeepSeek-V4-Pro-0813	7cd6eaf6	1b5a78cb
 wandb/deepseek-ai/DeepSeek-V4.1-Flash	7cd6eaf6	1b5a78cb
+wandb/deepseek-ai/DeepSeek-V4.1-Flash-1017	7cd6eaf6	1b5a78cb
 wandb/google/gemma-4-26B-A4B-it	7af22a68	1edb4060
 wandb/google/gemma-4-31B-it	7af22a68	1edb4060
 wandb/ibm-granite/granite-4.1-8b	97e18daf	f20e29e6
@@ -7769,7 +8400,9 @@ wandb/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B	97e18daf	f20e29e6
 wandb/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B	97e18daf	f20e29e6
 wandb/openai/gpt-oss-120b	9a276813	1edb4060
 wandb/openai/gpt-oss-20b	9a276813	1edb4060
+wandb/reflection/Beam-1.0-501B-A23B	97e18daf	f20e29e6
 wandb/zai-org/GLM-5.2	97e18daf	f20e29e6
+wandb/zai-org/GLM-5.3	97e18daf	f20e29e6
 wandb/zai-org/GLM-5.3-Flash	97e18daf	f20e29e6
 watsonx/bigscience/mt0-xxl	97e18daf	f20e29e6
 watsonx/bigscience/mt0-xxl-13b	97e18daf	f20e29e6
@@ -7862,6 +8495,7 @@ xai/grok-imagine-video-1.5	9f8e939c	1edb4060
 xai/grok-imagine-video-1.5-2026-05-30	9f8e939c	1edb4060
 xai/grok-imagine-video-1.5-lite	9f8e939c	1edb4060
 xai/grok-imagine-video-1.5-preview	9f8e939c	1edb4060
+xai/grok-latest	9f8e939c	1edb4060
 xai/grok-voice-2.0	9f8e939c	1edb4060
 xai/grok-voice-3.0	9f8e939c	1edb4060
 xai/grok-voice-latest	9f8e939c	1edb4060
@@ -7890,3 +8524,19 @@ zai/glm-5.1	97e18daf	f20e29e6
 zai/glm-5.2	97e18daf	f20e29e6
 zai/glm-5.3	97e18daf	f20e29e6
 zai/glm-5.3-flash	97e18daf	f20e29e6
+zai/glm-5v-turbo	97e18daf	f20e29e6
+zai/glm-flash-latest	97e18daf	f20e29e6
+zai/glm-latest	97e18daf	f20e29e6
+zerogpu/LFM2.5-1.2B-Instruct	97e18daf	f20e29e6
+zerogpu/LFM2.5-1.2B-Thinking	97e18daf	f20e29e6
+zerogpu/deepseek-v4.1-flash	7cd6eaf6	1b5a78cb
+zerogpu/glm-5.3-flash	97e18daf	f20e29e6
+zerogpu/gpt-4.1-mini	9a276813	1edb4060
+zerogpu/gpt-5.4-nano	7242c71e	56aa525f
+zerogpu/gpt-5.6-luna	7242c71e	56aa525f
+zerogpu/gpt-6-luna	5a3dba94	ddcbad0a
+zerogpu/gpt-oss-120b	9a276813	1edb4060
+zerogpu/llama-3.1-8b-instruct-fast	97e18daf	f20e29e6
+zerogpu/llama-3.2-3b-instruct-fast	97e18daf	f20e29e6
+zerogpu/qwen3-30b-a3b-fp8	94a111ce	48429573
+zerogpu/qwen3.6-35b-a3b	94a111ce	48429573
